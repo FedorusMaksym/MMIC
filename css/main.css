@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Kavoon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/*RESET-NORMALIZE BY MAKAR*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 1080px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  padding-top: 40px;
+}
+.header__container {
+  display: flex;
+  flex-direction: row;
+  gap: 126px;
+  align-items: center;
+  width: 1364px;
+  justify-content: center;
+}
+.header__logo {
+  font-family: "Kavoon", sans-serif;
+  text-decoration: none;
+  background: linear-gradient(180deg, rgb(225, 81, 0) 0%, rgb(255, 143, 80) 50%, rgba(255, 213, 66, 0.86) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+  -webkit-text-stroke: 1px #000;
+}
+.header__list {
+  display: flex;
+  flex-direction: row;
+  gap: 33px;
+}
+.header__button {
+  padding: 10px 22px;
+  background-color: rgb(255, 143, 80);
+  color: rgb(27, 22, 14);
+  border-radius: 136px;
+  margin-left: 70px;
+  font-weight: 600;
+}
+.header__link {
+  font-weight: 600;
+  color: rgb(244, 244, 244);
+}
+
+.hero {
+  padding-top: 210px;
+  padding-bottom: 249px;
+}
+.hero__title {
+  font-family: "Kavoon", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.vacanze {
+  padding-top: 124px;
+  padding-bottom: 121px;
+}
+.vacanze__title {
+  font-family: "Kavoon", sans-serif;
+  font-size: 38px;
+  text-align: center;
+}

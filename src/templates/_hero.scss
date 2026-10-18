@@ -1,0 +1,12 @@
+@use "../scss/utils/variables" as *;
+
+.hero {
+  padding-top: 210px;
+  padding-bottom: 249px;
+
+  &__title {
+    font-family: $logo-font;
+    font-size: 50px;
+    text-align: center;
+  }
+}
