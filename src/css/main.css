@@ -112,4 +112,14 @@ body {
   color: rgb(244, 244, 244);
 }
 
+.vacanze {
+  padding-top: 124px;
+  padding-bottom: 121px;
+}
+.vacanze__title {
+  font-family: "Kavoon", sans-serif;
+  font-size: 38px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,12 @@
+@use "../../utils/variables" as *;
+
+.vacanze {
+  padding-top: 124px;
+  padding-bottom: 121px;
+
+  &__title {
+    font-family:$logo-font;
+    font-size: 38px;
+    text-align: center;
+  }
+}
