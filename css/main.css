@@ -130,4 +130,8 @@ body {
   font-family: "Kavoon", sans-serif;
   font-size: 38px;
   text-align: center;
+  padding-bottom: 31px;
+}
+.vacanze__title--orange {
+  color: rgb(255, 143, 80);
 }

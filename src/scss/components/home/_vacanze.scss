@@ -8,5 +8,10 @@
     font-family:$logo-font;
     font-size: 38px;
     text-align: center;
+    padding-bottom: 31px;
+
+        &--orange {
+        color: $subtext-color;
+    }
   }
 }
