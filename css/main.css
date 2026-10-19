@@ -115,6 +115,7 @@ body {
 .hero {
   padding-top: 210px;
   padding-bottom: 249px;
+  background: url("../images/firstpage/hero-bg.jpg");
 }
 .hero__title {
   font-family: "Kavoon", sans-serif;
@@ -134,4 +135,45 @@ body {
 }
 .vacanze__title--orange {
   color: rgb(255, 143, 80);
+}
+.vacanze__desc {
+  font-size: 20px;
+  color: rgb(107, 125, 141);
+  text-align: center;
+  padding-bottom: 80px;
+}
+.vacanze__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+.vacanze__item {
+  padding-inline: 23px;
+  padding-bottom: 27px;
+  padding-top: 24px;
+  border-radius: 21px;
+  border: 1px solid rgb(227, 227, 225);
+  flex-basis: calc((100% - 250px) / 3);
+  text-align: center;
+}
+.vacanze__item__title {
+  color: rgb(255, 143, 80);
+  padding-top: 15px;
+  padding-bottom: 6px;
+  font-family: "Kavoon", sans-serif;
+}
+.vacanze__activitis {
+  -moz-column-gap: 3px;
+       column-gap: 3px;
+}
+.vacanze__activitis__text {
+  color: rgb(107, 125, 141);
+}
+.vacanze__activitis__text::before {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 8px;
+  height: 7px;
 }

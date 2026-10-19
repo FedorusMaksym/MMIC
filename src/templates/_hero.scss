@@ -3,6 +3,8 @@
 .hero {
   padding-top: 210px;
   padding-bottom: 249px;
+  // height: 100vh;
+  background: url("../images/firstpage/hero-bg.jpg");
 
   &__title {
     font-family: $logo-font;
