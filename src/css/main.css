@@ -75,14 +75,20 @@ body {
 
 .header {
   padding-top: 40px;
+  padding-bottom: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 .header__container {
   display: flex;
   flex-direction: row;
   gap: 126px;
   align-items: center;
-  width: 1364px;
-  justify-content: center;
+  width: 1368px;
+  justify-content: space-between;
 }
 .header__logo {
   font-family: "Kavoon", sans-serif;
@@ -97,19 +103,90 @@ body {
 .header__list {
   display: flex;
   flex-direction: row;
-  gap: 33px;
+  gap: 48px;
 }
 .header__button {
   padding: 10px 22px;
   background-color: rgb(255, 143, 80);
   color: rgb(27, 22, 14);
   border-radius: 136px;
-  margin-left: 70px;
+  margin-left: 150px;
   font-weight: 600;
 }
 .header__link {
   font-weight: 600;
   color: rgb(244, 244, 244);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__item--last {
+  padding-left: 36px;
+}
+
+.hero {
+  padding-top: 210px;
+  padding-bottom: 249px;
+  background: url("../images/firstpage/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+}
+.hero__title {
+  font-family: "Kavoon", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(254, 254, 254);
+}
+.hero__form {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  background-color: rgb(254, 254, 254);
+  border-radius: 105px;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transform: translate(-50%, 50%);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.hero__select {
+  border: none;
+  font-size: 10px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+}
+.hero__button {
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 105px;
+  border: none;
+  background-color: rgb(255, 143, 80);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 107px;
+  height: 37px;
+  padding-left: 25px;
+}
+.hero__field {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid rgb(107, 125, 141);
+  border-radius: 112px;
+  width: 173px;
+  height: 40px;
+  padding-left: 16px;
 }
 
 .vacanze {
@@ -120,6 +197,50 @@ body {
   font-family: "Kavoon", sans-serif;
   font-size: 38px;
   text-align: center;
+  padding-bottom: 31px;
+}
+.vacanze__title--orange {
+  color: rgb(255, 143, 80);
+}
+.vacanze__desc {
+  font-size: 20px;
+  color: rgb(107, 125, 141);
+  text-align: center;
+  padding-bottom: 80px;
+}
+.vacanze__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+.vacanze__item {
+  padding-inline: 23px;
+  padding-bottom: 27px;
+  padding-top: 24px;
+  border-radius: 21px;
+  border: 1px solid rgb(227, 227, 225);
+  flex-basis: calc((100% - 250px) / 3);
+  text-align: center;
+}
+.vacanze__item__title {
+  color: rgb(255, 143, 80);
+  padding-top: 15px;
+  padding-bottom: 6px;
+  font-family: "Kavoon", sans-serif;
+}
+.vacanze__activitis {
+  column-gap: 3px;
+}
+.vacanze__activitis__text {
+  color: rgb(107, 125, 141);
+}
+.vacanze__activitis__text::before {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 8px;
+  height: 7px;
 }
 
 /*# sourceMappingURL=main.css.map */

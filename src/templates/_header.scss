@@ -2,15 +2,21 @@
 
 .header {
     padding-top: 40px;
+    padding-bottom: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
  
-    &__container {
-        display: flex;
-        flex-direction: row;
-        gap: 126px;
-        align-items: center;
-        width: 1364px;
-        justify-content: center;
-    }
+  &__container {
+      display: flex;
+      flex-direction: row;
+      gap: 126px;
+      align-items: center;
+      width: 1368px;
+      justify-content: space-between;
+  }
 
   &__logo {
     font-family: $logo-font;
@@ -26,7 +32,7 @@
   &__list {
     display: flex;
     flex-direction: row;
-    gap: 33px;
+    gap: 48px;
   }
 
   &__button {
@@ -34,12 +40,19 @@
     background-color: $subtext-color;
     color: $button-text-color;
     border-radius: 136px;
-    margin-left: 70px;
+    margin-left: 150px;
     font-weight: 600;
   }
 
   &__link {
     font-weight: 600;
-    color: $header-link-color;
+    color: $header-link-color;    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__item--last {
+    padding-left: 36px;
   }
 }

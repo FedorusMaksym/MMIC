@@ -3,14 +3,71 @@
 .hero {
   padding-top: 210px;
   padding-bottom: 249px;
-  // height: 100vh;
   background: url("../images/firstpage/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
 
   &__title {
     font-family: $logo-font;
     font-size: 50px;
     text-align: center;
-
-
+    color:$hero-title-color;
   }
+
+  &__form {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    background-color:$hero-title-color;
+    border-radius: 105px;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transform: translate(-50%, 50%);
+    box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  &__select {
+    border: none;
+    font-size: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-family: $main-font;
+  }
+
+  &__button {
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 105px;
+    border: none;
+    background-color:$subtext-color;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+    font-family: $main-font;
+    width: 107px;
+    height: 37px;
+    padding-left: 25px;
+  }
+
+  &__field {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid $select-border-color;
+    border-radius: 112px;
+    width: 173px;
+    height: 40px;
+    padding-left: 16px;
+  }
+
+
 }

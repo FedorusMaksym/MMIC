@@ -5,8 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Surf & Travel</title>
-  <link rel="stylesheet" href="./css/main.css" />
-  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="./css/main.css"/>
 </head>
 
 <body>
@@ -18,26 +17,76 @@
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__item">
-            <a href="" class="header__link">Types of Holidays</a>
+            <a href="" class="header__link">
+              <svg class="header__icon" width="19" height="20">
+                <use href="./images/symbol-defs.svg#surf"></use>
+              </svg>
+              Tipi di Vacanze
+            </a>
           </li>
           <li class="header__item">
-            <a href="" class="header__link">Destinations</a>
+            <a href="" class="header__link">
+              <svg class="header__icon" width="19" height="20">
+                <use href="./images/symbol-defs.svg#surf"></use>
+              </svg>
+              Destinazioni
+            </a>
           </li>
           <li class="header__item">
-            <a href="" class="header__link">Accommodations</a>
+            <a href="" class="header__link">
+              <svg class="header__icon" width="19" height="20">
+                <use href="./images/symbol-defs.svg#home"></use>
+              </svg>
+              Sistemazioni
+            </a>
           </li>
-          <li class="header__item">
+          <li class="header__item header__item--last">
             <a href="" class="header__link">About</a>
           </li>
         </ul>
       </nav>
-      <a href="" class="header__button">Book</a>
+      <a href="" class="header__button">Prenota</a>
     </div>
   </header>
   <main class="main">
     <section class="hero">
       <div class="container">
         <h1 class="hero__title">La tua prossima avventura inizia oggi.</h1>
+        <form class="hero__form" action="#">
+          <label class="hero__field hero__field--active">
+            <svg class="hero__icon" width="12" height="12">
+              <use href="./images/symbol-defs.svg#globus"></use>
+            </svg>
+            <select class="hero__select" name="area">
+              <option>Campo Attivo</option>
+            </select>
+          </label>
+
+          <label class="hero__field">
+            <svg class="hero__icon" width="12" height="12">
+              <use href="./images/symbol-defs.svg#bus"></use>
+            </svg>
+            <select class="hero__select" name="type">
+              <option>Scelto</option>
+            </select>
+          </label>
+
+          <label class="hero__field">
+            <svg class="hero__icon" width="12" height="12">
+              <use href="./images/symbol-defs.svg#surf"></use>
+            </svg>
+            <select class="hero__select" name="level">
+              <option>Default</option>
+            </select>
+          </label>
+
+          <button class="hero__button" type="submit">
+            Cerca
+            <svg class="hero__icon" width="12" height="12">
+              <use href="./images/symbol-defs.svg#dandruff"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </section>
     <section class="vacanze">
@@ -48,7 +97,7 @@
 
         <ul class="vacanze__list">
           <li class="vacanze__item">
-            <img src="#" alt="Home">
+            <img src="./images/firstpage/home.png" alt="Home">
             <h2 class="vacanze__item__title">Surf Camp</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
@@ -61,7 +110,7 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Car">
+            <img src="./images/firstpage/car.png" alt="Car">
             <h2 class="vacanze__item__title">Gruppi</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
@@ -74,7 +123,7 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="TV">
+            <img src="./images/firstpage/tv.png" alt="TV">
             <h2 class="vacanze__item__title">Surf Lodge</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
@@ -87,7 +136,7 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Bich House">
+            <img src="./images/firstpage/beach-house.png" alt="Beach House">
             <h2 class="vacanze__item__title">Surf Resort</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
@@ -100,7 +149,7 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Lainer">
+            <img src="./images/firstpage/lainer.png" alt="Lainer">
             <h2 class="vacanze__item__title">Boat Trip</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
@@ -113,7 +162,7 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Surf Man">
+            <img src="./images/firstpage/surf-man.png" alt="Surf Man">
             <h2 class="vacanze__item__title">Junior</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
@@ -126,7 +175,7 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Woman Yoga">
+            <img src="./images/firstpage/yoga.png" alt="Woman Yoga">
             <h2 class="vacanze__item__title">Surf & Yoga</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
@@ -139,7 +188,7 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Golf Car">
+            <img src="./images/firstpage/golf-car.png" alt="Golf Car">
             <h2 class="vacanze__item__title">Adventures</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
@@ -152,7 +201,7 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Famili Surfs">
+            <img src="./images/firstpage/family-surfs.png" alt="Family Surfs">
             <h2 class="vacanze__item__title">Family Trip</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">

@@ -1,44 +1,101 @@
 <!DOCTYPE html><html lang="uk"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
-    <link rel="stylesheet" href="/Project.34df27b5.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="container header__container">
-        <a href="" class="header__logo">
-          Surf &amp; Travel
-        </a>
-        <nav class="header__nav">
-          <ul class="header__list">
-            <li class="header__item">
-              <a href="" class="header__link">Types of Holidays</a>
-            </li>
-            <li class="header__item">
-              <a href="" class="header__link">Destinations</a>
-            </li>
-            <li class="header__item">
-              <a href="" class="header__link">Accommodations</a>
-            </li>
-            <li class="header__item">
-              <a href="" class="header__link">About</a>
-            </li>
-          </ul>
-        </nav>
-        <a href="" class="header__button">Book</a>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surf &amp; Travel</title>
+  <link rel="stylesheet" href="/Project.34df27b5.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a href="" class="header__logo">
+        Surf &amp; Travel
+      </a>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="" class="header__link">
+              <svg class="header__icon" width="19" height="20">
+                <use href="/symbol-defs.a8b2e413.svg#surf"></use>
+              </svg>
+              Tipi di Vacanze
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">
+              <svg class="header__icon" width="19" height="20">
+                <use href="/symbol-defs.a8b2e413.svg#surf"></use>
+              </svg>
+              Destinazioni
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">
+              <svg class="header__icon" width="19" height="20">
+                <use href="/symbol-defs.a8b2e413.svg#home"></use>
+              </svg>
+              Sistemazioni
+            </a>
+          </li>
+          <li class="header__item header__item--last">
+            <a href="" class="header__link">About</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="" class="header__button">Prenota</a>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">La tua prossima avventura inizia oggi.</h1>
+        <form class="hero__form" action="#">
+          <label class="hero__field hero__field--active">
+            <svg class="hero__icon" width="12" height="12">
+              <use href="/symbol-defs.a8b2e413.svg#globus"></use>
+            </svg>
+            <select class="hero__select" name="area">
+              <option>Campo Attivo</option>
+            </select>
+          </label>
+
+          <label class="hero__field">
+            <svg class="hero__icon" width="12" height="12">
+              <use href="/symbol-defs.a8b2e413.svg#bus"></use>
+            </svg>
+            <select class="hero__select" name="type">
+              <option>Scelto</option>
+            </select>
+          </label>
+
+          <label class="hero__field">
+            <svg class="hero__icon" width="12" height="12">
+              <use href="/symbol-defs.a8b2e413.svg#surf"></use>
+            </svg>
+            <select class="hero__select" name="level">
+              <option>Default</option>
+            </select>
+          </label>
+
+          <button class="hero__button" type="submit">
+            Cerca
+            <svg class="hero__icon" width="12" height="12">
+              <use href="/symbol-defs.a8b2e413.svg#dandruff"></use>
+            </svg>
+          </button>
+        </form>
       </div>
-    </header>
-    <main class="main">
-      <section class="vacanze">
-        <h1 class="vacanze__title">Le vacanze SurfCamp</h1>
+    </section>
+    <section class="vacanze">
+      <div class="container">
+        <h1 class="vacanze__title">Le vacanze <span class="vacanze__title--orange">SurfCamp</span></h1>
         <p class="vacanze__desc">Scegli la tipologia di vacanza di surf che fa per te. <br>
           Puoi partire in qualsiasi momento.</p>
 
         <ul class="vacanze__list">
           <li class="vacanze__item">
-            <img src="#" alt="Home">
-            <h2 class="vacanze__item--title">Surf Camp</h2>
+            <img src="/home.9afb9be4.png" alt="Home">
+            <h2 class="vacanze__item__title">Surf Camp</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
                 <p class="vacanze__activitis__text">Da 3 a 10 giorni</p>
@@ -50,8 +107,8 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Car">
-            <h2 class="vacanze__item--title">Gruppi</h2>
+            <img src="/car.998abd2b.png" alt="Car">
+            <h2 class="vacanze__item__title">Gruppi</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
                 <p class="vacanze__activitis__text">Da 3 a 10 giorni</p>
@@ -63,8 +120,8 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="TV">
-            <h2 class="vacanze__item--title">Surf Lodge</h2>
+            <img src="/tv.adcc0ab8.png" alt="TV">
+            <h2 class="vacanze__item__title">Surf Lodge</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
                 <p class="vacanze__activitis__text">Da 3 a 10 giorni</p>
@@ -76,8 +133,8 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Bich House">
-            <h2 class="vacanze__item--title">Surf Resort</h2>
+            <img src="/beach-house.2f8f3778.png" alt="Beach House">
+            <h2 class="vacanze__item__title">Surf Resort</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
                 <p class="vacanze__activitis__text">Da 3 a 10 giorni</p>
@@ -89,8 +146,8 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Lainer">
-            <h2 class="vacanze__item--title">Boat Trip</h2>
+            <img src="/lainer.8afa83bb.png" alt="Lainer">
+            <h2 class="vacanze__item__title">Boat Trip</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
                 <p class="vacanze__activitis__text">Da 3 a 10 giorni</p>
@@ -102,8 +159,8 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Surf Man">
-            <h2 class="vacanze__item--title">Junior</h2>
+            <img src="/surf-man.7bcff3b6.png" alt="Surf Man">
+            <h2 class="vacanze__item__title">Junior</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
                 <p class="vacanze__activitis__text">Da 3 a 10 giorni</p>
@@ -115,8 +172,8 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Woman Yoga">
-            <h2 class="vacanze__item--title">Surf &amp; Yoga</h2>
+            <img src="/yoga.d2f97747.png" alt="Woman Yoga">
+            <h2 class="vacanze__item__title">Surf &amp; Yoga</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
                 <p class="vacanze__activitis__text">Da 3 a 10 giorni</p>
@@ -128,8 +185,8 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Golf Car">
-            <h2 class="vacanze__item--title">Adventures</h2>
+            <img src="/golf-car.8d098c0c.png" alt="Golf Car">
+            <h2 class="vacanze__item__title">Adventures</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
                 <p class="vacanze__activitis__text">Da 3 a 10 giorni</p>
@@ -141,8 +198,8 @@
             </ul>
           </li>
           <li class="vacanze__item">
-            <img src="#" alt="Famili Surfs">
-            <h2 class="vacanze__item--title">Family Trip</h2>
+            <img src="/family-surfs.012e079c.png" alt="Family Surfs">
+            <h2 class="vacanze__item__title">Family Trip</h2>
             <ul class="vacanze__acitivitis">
               <li class="vacanze__activitis__item">
                 <p class="vacanze__activitis__text">Da 3 a 10 giorni</p>
@@ -154,8 +211,47 @@
             </ul>
           </li>
         </ul>
-      </section>
-    </main>
-    <script src="/Project.380419b9.js" type="module"></script>
-  
+      </div>
+    </section>
+    <section class="pacchetti">
+      <h2 class="pacchetti__title">I pacchetti più popolari</h2>
+      <p class="pacchetti__desc">Scegli la tipologia di vacanza di surf che fa per te. Puoi partire in qualsiasi momento.</p>
+      <ul class="pacchetti__list">
+        <li class="pacchetti__item">
+          <ima class="pacchetti__item__img">
+          <h2 class="pacchetti__item__tittle">Africa, Marocco</h2>
+          <p class="pacchetti__item__desc">Jeffrey’s Bay Surf Camp in Hotel</p>
+        </ima></li>
+        <li class="pacchetti__item">
+          <ima class="pacchetti__item__img">
+          <h2 class="pacchetti__item__tittle">Africa, Marocco</h2>
+          <p class="pacchetti__item__desc">Jeffrey’s Bay Surf Camp in Hotel</p>
+        </ima></li>
+        <li class="pacchetti__item">
+          <ima class="pacchetti__item__img">
+          <h2 class="pacchetti__item__tittle">Africa, Marocco</h2>
+          <p class="pacchetti__item__desc">Jeffrey’s Bay Surf Camp in Hotel</p>
+        </ima></li>
+        <li class="pacchetti__item">
+          <ima class="pacchetti__item__img">
+          <h2 class="pacchetti__item__tittle">Africa, Marocco</h2>
+          <p class="pacchetti__item__desc">Jeffrey’s Bay Surf Camp in Hotel</p>
+        </ima></li>
+        <li class="pacchetti__item">
+          <ima class="pacchetti__item__img">
+          <h2 class="pacchetti__item__tittle">Africa, Marocco</h2>
+          <p class="pacchetti__item__desc">Jeffrey’s Bay Surf Camp in Hotel</p>
+        </ima></li>
+        <li class="pacchetti__item">
+          <ima class="pacchetti__item__img">
+          <h2 class="pacchetti__item__tittle">Africa, Marocco</h2>
+          <p class="pacchetti__item__desc">Jeffrey’s Bay Surf Camp in Hotel</p>
+        </ima></li>
+      </ul>
+      <button class="pacchetti__button">Scopri tutti i pacchetti</button>
+    </section>
+  </main>
+  <script src="/Project.380419b9.js" type="module"></script>
+
+
 </body></html>
