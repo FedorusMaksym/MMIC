@@ -190,6 +190,16 @@ body {
   padding-left: 16px;
 }
 
+title {
+  font-family: "Kavoon", sans-serif;
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 31px;
+}
+title--orange {
+  color: rgb(255, 143, 80);
+}
+
 .vacanze {
   padding-top: 124px;
   padding-bottom: 121px;
