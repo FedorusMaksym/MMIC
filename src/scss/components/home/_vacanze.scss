@@ -25,12 +25,12 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 16px;
   }
 
   &__item {
-    padding-inline: 23px;
+    padding-inline: 38px;
     padding-bottom: 27px;
     padding-top: 24px;
     border-radius: 21px;
@@ -61,5 +61,10 @@
         // background-color: var(--third-color-text); We dont had SVG elements
       }
     }
+  }
+
+  &__item__title {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }

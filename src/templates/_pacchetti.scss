@@ -1,0 +1,64 @@
+@use "../scss/utils/variables" as *;
+
+.pacchetti {
+    &__desc {
+        font-size: 20px;
+        font-family: $subtext-font;
+        color:$text-color;
+        text-align: center;
+    }
+
+    &__img {
+        width: 100%;
+        height: 238px;
+        border-top-right-radius: 23px;
+        border-top-left-radius: 23px;
+        object-fit: cover;
+        display: block;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 17px 24px;
+        padding-top: 44px;
+        padding-bottom: 61px;
+    }
+
+    &__item {
+        flex-basis: calc((100% - 48px) / 3);
+        box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+        border-bottom-right-radius: 23px;
+        border-bottom-left-radius: 23px;
+    }
+
+    &__title {
+        padding-top: 19px;
+        padding-bottom: 9px;
+        padding-left: 26px;
+        font-size: 14px;
+        color: $subtext-color;
+        font-weight: 700;
+    }
+
+    &__item__desc {
+        padding-bottom: 43px;
+        padding-left: 26px;
+        font-size: 16px;
+        color: $pacchetti-desc-color;
+        font-weight: 700;
+    }
+
+    &__button {
+        display: block;
+        padding: 10px 22px;
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 16px;
+        background-color: $subtext-color;
+        border: none;
+        border-radius: 136px;
+        margin: 0 auto;
+    }
+}
