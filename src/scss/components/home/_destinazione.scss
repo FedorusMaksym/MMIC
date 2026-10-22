@@ -1,0 +1,155 @@
+// ============================================================
+// DESTINATION SECTION  (values measured from the Figma frame)
+// Variables have !default so this file compiles even on its own
+// ============================================================
+$logo-font: "Kavoon", sans-serif !default;
+$subtext-font: "Montserrat", sans-serif !default;
+$main-font: "Poppins", sans-serif !default;
+$text-color: rgba(107, 125, 141, 1) !default;          // #6B7D8D
+$hero-title-color: rgba(254, 254, 254, 1) !default;    // #FEFEFE
+$pacchetti-desc-color: rgba(48, 45, 39, 1) !default;   // #302D27
+
+// photo + teal-to-black gradient on top of it
+// $fade = where the gradient starts (33.854% in the design, 23.92% for row 2)
+@mixin destination-tile($img, $fade: 33.854%) {
+  background-image:
+    linear-gradient(180deg, rgba(1, 106, 119, 0) $fade, rgba(0, 0, 0, 0.7) 100%),
+    url($img);
+}
+
+.destination {
+  padding-bottom: 0;                // button is the last element in the design
+
+  // ---------- Title ----------
+  &__title {
+    font-family: $logo-font;
+    font-size: 39px;
+    line-height: 1.077;             // ~42px
+    text-align: center;
+    color: $pacchetti-desc-color;
+    padding-bottom: 22px;           // gap title -> subtitle
+  }
+
+  // ---------- Subtitle ----------
+  &__desc {
+    font-family: $subtext-font;
+    font-size: 20px;
+    text-align: center;
+    color: $text-color;
+    padding-bottom: 54px;           // gap subtitle -> map
+  }
+
+  // ---------- World map (873 x 382 in the design) ----------
+  &__map {
+    max-width: 873px;
+    height: 382px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    // export the "MAPPA" frame from Figma as SVG, then uncomment:
+    // background-image: url("../images/firstpage/world-map.svg");
+  }
+
+  // ---------- Icon + "Destinazioni" ----------
+  &__head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;                       // gap icon <-> text
+    padding-top: 122px;             // gap map -> heading
+    padding-bottom: 23px;           // gap heading -> text
+  }
+
+  &__icon {
+    width: 42px;                    // icon box 42.5 x 36.2
+    height: 36px;
+  }
+
+  &__list-title {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: $pacchetti-desc-color;
+  }
+
+  // ---------- Text under heading ----------
+  &__text {
+    max-width: 577px;               // makes the 2-line wrap like the design
+    margin: 0 auto;
+    padding-bottom: 69px;           // gap text -> grid
+    font-family: $subtext-font;
+    font-size: 20px;
+    text-align: center;
+    color: $text-color;
+  }
+
+  // ---------- Grid: 2 columns x 3 rows ----------
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;                       // gap between tiles
+    padding-bottom: 63px;           // gap grid -> button
+  }
+
+  &__item {
+    position: relative;
+    height: 381px;                  // tile height
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 12px 20px 72px;      // text starts 72px from the left, 20px from the bottom
+    background-size: cover;
+    background-position: center;
+    color: $hero-title-color;
+
+    // photos in the order of the design (swap file names if the order is wrong)
+    &:nth-child(1) { @include destination-tile("../images/firstpage/map-first-photo.png"); }
+    &:nth-child(2) { @include destination-tile("../images/firstpage/map-second-photo.png"); }
+    &:nth-child(3) { @include destination-tile("../images/firstpage/map-third-photo.png", 23.92%); }
+    &:nth-child(4) { @include destination-tile("../images/firstpage/map-fourth-photo.png", 23.92%); }
+    &:nth-child(5) { @include destination-tile("../images/firstpage/map-fifth-photo.png"); }
+    &:nth-child(6) { @include destination-tile("../images/firstpage/map-sixth-photo.png"); }
+  }
+
+  // continent icon, bottom-left of the tile
+  &__continent {
+    position: absolute;
+    left: 12px;
+    bottom: 19px;
+    width: 51.57px;
+    height: 40.11px;
+    object-fit: contain;
+  }
+
+  &__item-title {
+    font-family: $logo-font;        // Kavoon
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 1px;
+  }
+
+  &__item-desc {
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  // ---------- Button ----------
+  &__button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 22px;
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.8;
+    color: $pacchetti-desc-color;
+    background: transparent;
+    border: 2px solid $pacchetti-desc-color;
+    border-radius: 140px;
+    cursor: pointer;
+  }
+}
