@@ -1,0 +1,42 @@
+@use "../../utils/variables" as *;
+
+.perche {
+    padding-top: 120px;
+
+    &__span {
+        color: $subtext-color;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        font-family: $subtext-font;
+        color:$text-color;
+        text-align: center;
+    }
+
+    &__title {
+        font-weight: 700;
+        color: $title-color;
+        padding-bottom: 14px;
+        padding-top: 32px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 66px;
+        padding-top: 46px;
+        padding-bottom: 121px;
+    }
+
+    &__item {
+        text-align: center;
+    }
+
+    &__desc {
+        font-size: 16px;
+        color: $text-color;
+        line-height: 150%;
+    }
+}
