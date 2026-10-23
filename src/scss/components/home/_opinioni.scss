@@ -1,0 +1,107 @@
+@use "../../utils/variables" as *;
+
+.opinion {
+  padding: 60px 0 80px;
+
+  &__title {
+    margin: 0;
+    font-family: $logo-font;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    color: $logo-border-color;
+  }
+
+  &__desc {
+    max-width: 480px;
+    margin: 16px auto 0;
+    font-family: $subtext-font;
+    font-size: 18px;
+    line-height: 1.1;
+    text-align: center;
+    color: $text-color;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 830px;
+    margin: 103px auto 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 34px 40px;
+    border: 1px solid $logo-border-color;
+    border-radius: 16px;
+    background: #fff;
+    text-align: center;
+    font-family: $main-font;
+
+    &__img {
+      width: 88px;
+      height: 88px;
+      margin-top: -44px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    &__title {
+      margin: 8px 0 0;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: $title-color;
+    }
+
+    &__visited {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.5;
+      color: $title-color;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 74%;
+        height: 1px;
+        margin: 16px auto 0;
+        background: $news-letter-color;
+      }
+    }
+
+    &__desc {
+      margin: 24px 0 0;
+      font-size: 14px;
+      line-height: 1.7;
+      letter-spacing: 0.04em;
+      color: $button-text-color;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .opinion {
+    &__title {
+      font-size: 28px;
+    }
+
+    &__desc {
+      font-size: 16px;
+    }
+
+    &__list {
+      grid-template-columns: 1fr;
+      gap: 72px;
+      max-width: 340px;
+      margin-top: 80px;
+    }
+  }
+}
