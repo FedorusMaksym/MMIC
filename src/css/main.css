@@ -382,8 +382,9 @@ body {
   padding-bottom: 23px;
 }
 .destination__icon {
-  width: 42px;
-  height: 36px;
+  width: 31px;
+  height: 31px;
+  color: rgb(255, 143, 80);
 }
 .destination__list-title {
   font-family: "Poppins", sans-serif;
@@ -442,7 +443,7 @@ body {
   bottom: 19px;
   width: 51.57px;
   height: 40.11px;
-  object-fit: contain;
+  fill: rgb(254, 254, 254);
 }
 .destination__item-title {
   font-family: "Kavoon", sans-serif;
