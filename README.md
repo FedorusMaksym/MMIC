@@ -10,14 +10,6 @@
 
 ---
 
-## 📸 Превʼю
-
-<!-- Додай скріншоти у папку /docs або /assets і підстав шляхи -->
-![Desktop preview](./docs/preview-desktop.png)
-![Mobile preview](./docs/preview-mobile.png)
-
----
-
 ## 📖 Про проєкт
 
 Сайт допомагає користувачам знайти та забронювати серф-кемп, дізнатися про локації та інструкторів, а також приєднатися до спільноти серфінгістів.
@@ -40,80 +32,28 @@
 
 - HTML5 / CSS3
 - JavaScript (ES6+)
-- [React](https://react.dev/) / [Next.js](https://nextjs.org/) _(за потреби)_
-- [Tailwind CSS](https://tailwindcss.com/) / SCSS _(за потреби)_
-- [Figma](https://www.figma.com/) — дизайн
+- SCSS _(за потреби)_
+- [Figma]([https://www.figma.com/](https://www.figma.com/design/leseOyL0ZboDNVPZjXz54j/Free-Website-Template-%7C-Surf-Camps---Travel-Booking-Agency--Community---Copy-?node-id=0-1&p=f&t=IMA6UhR3Eu7QNSnV-0) — дизайн
 
 ---
 
 ## 🎨 Дизайн
 
-Макет: [відкрити у Figma](https://www.figma.com/design/leseOyL0ZboDNVPZjXz54j/Free-Website-Template-%7C-Surf-Camps---Travel-Booking-Agency--Community---Copy-?node-id=0-1&p=f&t=IMA6UhR3Eu7QNSnV-0)
+Макет: (https://www.figma.com/design/leseOyL0ZboDNVPZjXz54j/Free-Website-Template-%7C-Surf-Camps---Travel-Booking-Agency--Community---Copy-?node-id=0-1&p=f&t=IMA6UhR3Eu7QNSnV-0)
 
 | Параметр | Значення |
 | --- | --- |
-| Основний шрифт | `[назва шрифту]` |
-| Основний колір | `[#HEX]` |
-| Акцентний колір | `[#HEX]` |
-| Брейкпоінти | `[1440px / 768px / 375px]` |
-
----
-
-## 🚀 Початок роботи
-
-### Вимоги
-
-- [Node.js](https://nodejs.org/) `>= 18`
-- npm або yarn
-
-### Встановлення
-
-```bash
-# клонувати репозиторій
-git clone https://github.com/<your-username>/<your-repo>.git
-
-# перейти в папку проєкту
-cd <your-repo>
-
-# встановити залежності
-npm install
-```
-
-### Запуск
-
-```bash
-# режим розробки
-npm run dev
-
-# збірка для продакшну
-npm run build
-```
-
-Після запуску відкрий [http://localhost:3000](http://localhost:3000) у браузері.
-
----
-
-## 📁 Структура проєкту
-
-```
-├── public/            # статичні файли (зображення, шрифти, іконки)
-├── src/
-│   ├── components/    # перевикористовувані компоненти
-│   ├── pages/         # сторінки
-│   ├── styles/        # глобальні стилі
-│   └── assets/        # медіа-ресурси
-├── docs/              # скріншоти для README
-├── package.json
-└── README.md
-```
+| Основний шрифт | `Poppins` |
+| Основний колір | `rgba(244, 244, 244, 1)` |
+| Акцентний колір | `rgba(255, 143, 80, 1)` |
 
 ---
 
 ## 🗺 Roadmap
 
 - [x] Макет у Figma
-- [ ] Верстка головної сторінки
-- [ ] Сторінки кемпів і напрямків
+- [x] Верстка головної сторінки
+- [x] Сторінки кемпів і напрямків
 - [ ] Форма бронювання
 - [ ] Розділ спільноти
 - [ ] Адаптивність
@@ -139,6 +79,6 @@ npm run build
 
 ---
 
-## 👤 Автор
+## 👤 Автори
 
-**[Твоє імʼя]** — [GitHub](https://github.com/your-username) · [LinkedIn](#) · [Email](mailto:you@example.com)
+** Макар Ямнюк, Максим Федерись, Іван, Саша** 
