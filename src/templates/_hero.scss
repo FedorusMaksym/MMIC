@@ -12,25 +12,29 @@
   display: flex;
   align-items: center;
 
+  &--location {
+    background-image: url("../images/thirdpage/hero-bg.png");
+  }
+
   &__title {
     font-family: $logo-font;
     font-size: 50px;
     text-align: center;
-    color:$hero-title-color;
+    color: $hero-title-color;
   }
 
   &__form {
     position: absolute;
     left: 50%;
     bottom: 0;
-    background-color:$hero-title-color;
+    background-color: $hero-title-color;
     border-radius: 105px;
     padding: 18px 24px;
     display: flex;
     align-items: center;
     gap: 12px;
     transform: translate(-50%, 50%);
-    box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1);
   }
 
   &__select {
@@ -47,7 +51,7 @@
     font-size: 12px;
     border-radius: 105px;
     border: none;
-    background-color:$subtext-color;
+    background-color: $subtext-color;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -68,6 +72,4 @@
     height: 40px;
     padding-left: 16px;
   }
-
-
 }
