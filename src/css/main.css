@@ -234,14 +234,19 @@ body {
 }
 .pacchetti__button {
   display: block;
-  padding: 10px 22px;
+  width: fit-content;
+  padding: 20px 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  color: rgb(48, 45, 39);
+  text-align: center;
+  text-decoration: none;
   background-color: rgb(255, 143, 80);
   border: none;
   border-radius: 136px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .newletter {
@@ -824,6 +829,7 @@ body {
 }
 .destination__button {
   display: block;
+  width: fit-content;
   margin: 0 auto;
   padding: 10px 22px;
   font-family: "Poppins", sans-serif;
@@ -831,6 +837,8 @@ body {
   font-size: 16px;
   line-height: 1.8;
   color: rgb(48, 45, 39);
+  text-align: center;
+  text-decoration: none;
   background: transparent;
   border: 2px solid rgb(48, 45, 39);
   border-radius: 140px;

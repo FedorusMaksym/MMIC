@@ -128,6 +128,7 @@ $pacchetti-desc-color: rgba(48, 45, 39, 1) !default;
 
   &__button {
     display: block;
+    width: fit-content;
     margin: 0 auto;
     padding: 10px 22px;
     font-family: $main-font;
@@ -135,6 +136,8 @@ $pacchetti-desc-color: rgba(48, 45, 39, 1) !default;
     font-size: 16px;
     line-height: 1.8;
     color: $pacchetti-desc-color;
+    text-align: center;
+    text-decoration: none;
     background: transparent;
     border: 2px solid $pacchetti-desc-color;
     border-radius: 140px;
