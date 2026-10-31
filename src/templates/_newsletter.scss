@@ -8,11 +8,10 @@
   background-color: $button-text-color;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/firstpage/newsletter-bg.png"),
     url("../images/firstpage/newsletter-bg.png");
   background-repeat: no-repeat;
-  background-position: center, center, center;
-  background-size: cover, auto 100%, cover;
+  background-position: center;
+  background-size: cover;
 
   &__inner {
     position: relative;

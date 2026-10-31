@@ -136,6 +136,9 @@ body {
   display: flex;
   align-items: center;
 }
+.hero--location {
+  background-image: url("../images/thirdpage/hero-bg.png");
+}
 .hero__title {
   font-family: "Kavoon", sans-serif;
   font-size: 50px;
@@ -250,10 +253,10 @@ body {
   position: relative;
   overflow: hidden;
   background-color: rgb(27, 22, 14);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/firstpage/newsletter-bg.png"), url("../images/firstpage/newsletter-bg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/firstpage/newsletter-bg.png");
   background-repeat: no-repeat;
-  background-position: center, center, center;
-  background-size: cover, auto 100%, cover;
+  background-position: center;
+  background-size: cover;
 }
 .newletter__inner {
   position: relative;
@@ -527,8 +530,8 @@ body {
 .title {
   font-family: "Kavoon", sans-serif;
   font-size: 38px;
-  text-align: center;
   padding-bottom: 31px;
+  text-align: center;
 }
 .title--orange {
   color: rgb(255, 143, 80);
@@ -844,4 +847,92 @@ body {
   border: 2px solid rgb(48, 45, 39);
   border-radius: 140px;
   cursor: pointer;
+}
+
+.snorkeling {
+  padding-bottom: 112px;
+  padding-top: 48px;
+}
+.snorkeling__title {
+  font-family: "Kavoon", sans-serif;
+  padding-bottom: 74px;
+  padding-top: 16px;
+  text-align: left;
+}
+.snorkeling__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 108px;
+  align-items: center;
+}
+.snorkeling__wrapper--text {
+  text-align: left;
+  padding-right: 50px;
+}
+.snorkeling__text {
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  line-height: 34px;
+}
+.snorkeling__subtitle {
+  color: rgb(255, 143, 80);
+  font-size: 20px;
+  font-weight: 700;
+}
+.snorkeling__icon {
+  width: 13px;
+  height: 8px;
+  margin-right: 13px;
+  fill: rgb(255, 143, 80);
+}
+.snorkeling__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.snorkeling__list {
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-right: 55px;
+}
+.snorkeling__sidelist {
+  box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(227, 227, 225);
+  border-radius: 12px;
+  height: 264px;
+}
+.snorkeling__desc {
+  font-size: 13px;
+  color: rgb(48, 45, 39);
+}
+.snorkeling__sidelist--title {
+  color: rgb(27, 22, 14);
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: block;
+  background-color: rgb(255, 170, 92);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.snorkeling__icon--first {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.snorkeling__img {
+  width: 1130px;
+  height: 600px;
+}
+.snorkeling__container {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.welcome {
+  padding-top: 568px;
 }
