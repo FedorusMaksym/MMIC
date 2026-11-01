@@ -52,13 +52,18 @@
 
     &__button {
         display: block;
-        padding: 10px 22px;
+        width: fit-content;
+        padding: 20px 22px;
         font-family: $main-font;
         font-weight: 600;
         font-size: 16px;
+        color: $pacchetti-desc-color;
+        text-align: center;
+        text-decoration: none;
         background-color: $subtext-color;
         border: none;
         border-radius: 136px;
         margin: 0 auto;
+        cursor: pointer;
     }
 }
