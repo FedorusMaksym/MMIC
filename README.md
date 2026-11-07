@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-> 🔗 **Live demo:** [your-demo-link](#) <!-- додай посилання після деплою -->
+> 🔗 **Live demo:** [fedorusmaksym.github.io/MMIC/](#) <!-- додай посилання після деплою -->
 
 ---
 
