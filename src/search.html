@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SurfCamp – Ricerca</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="header__logo"> Surf & Travel </a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="location.html" class="header__link">
+                <svg class="header__icon" width="19" height="20">
+                  <use href="./images/symbol-defs.svg#surf"></use>
+                </svg>
+                Tipi di Vacanze
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">
+                <svg class="header__icon" width="19" height="20">
+                  <use href="./images/symbol-defs.svg#surf"></use>
+                </svg>
+                Destinazioni
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">
+                <svg class="header__icon" width="19" height="20">
+                  <use href="./images/symbol-defs.svg#home"></use>
+                </svg>
+                Sistemazioni
+              </a>
+            </li>
+            <li class="header__item header__item--last">
+              <a href="#" class="header__link">About</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="header__button">Prenota</a>
+      </div>
+    </header>
+    <main>
+      <section
+        class="hero"
+        style="
+          background-image: url(&quot;./images/secondpage/header-bg.png&quot;);
+        "
+      >
+        <div class="container">
+          <h1 class="hero__title">
+            Prenota suvito la tua prossima vacanza SurfCamp tra i pacchetti
+            disponibili
+          </h1>
+        </div>
+      </section>
+
+      <section class="combinator-search">
+        <h1 class="vacanze__title qual__title">Qual’è la prossima meta?</h1>
+        <p class="vacanze__desc">
+          In quale angolo di mondo vuoi andare? Cerca tra oltre 200 mete
+          disponibili.
+        </p>
+
+        <div class="layout">
+          <aside class="sidebar" aria-label="Ricerca e filtri">
+            <form class="search" id="search-form" data-search-form novalidate>
+              <h2 class="search__title">Scegli dove andare:</h2>
+
+              <div class="search__field">
+                <svg class="search__icon" aria-hidden="true">
+                  <use href="./images/symbol-defs.svg#globus"></use>
+                </svg>
+                <select
+                  class="search__select"
+                  name="destination"
+                  data-field="destination"
+                  aria-label="Destinazione"
+                >
+                  <option value="">Tutta l’Africa</option>
+                </select>
+              </div>
+
+              <div class="search__field">
+                <svg
+                  class="search__icon search__icon--accent"
+                  aria-hidden="true"
+                >
+                  <use href="./images/symbol-defs.svg#bus"></use>
+                </svg>
+                <select
+                  class="search__select"
+                  name="type"
+                  data-field="type"
+                  aria-label="Tipo"
+                >
+                  <option value="">Resort</option>
+                </select>
+              </div>
+
+              <div class="search__field">
+                <svg class="search__icon" aria-hidden="true">
+                  <use href="./images/symbol-defs.svg#surf"></use>
+                </svg>
+                <select
+                  class="search__select"
+                  name="level"
+                  data-field="level"
+                  aria-label="Livello"
+                >
+                  <option value="">Tutti i livelli</option>
+                </select>
+              </div>
+
+              <button class="search__submit" type="submit">
+                Cerca
+                <svg class="search__submit-icon" aria-hidden="true">
+                  <use href="./images/symbol-defs.svg#dandruff"></use>
+                </svg>
+              </button>
+            </form>
+
+            <section class="filters" aria-labelledby="filters-title">
+              <h2 class="filters__title" id="filters-title">
+                Filtri di ricerca:
+              </h2>
+
+              <details class="filters__group">
+                <summary class="filters__summary">
+                  <svg class="filters__icon" aria-hidden="true">
+                    <use href="./images/symbol-defs.svg#globus"></use>
+                  </svg>
+                  <span class="filters__name">Destinazione</span>
+                </summary>
+                <ul class="filters__list" data-filter-list="destination"></ul>
+              </details>
+
+              <details class="filters__group" open>
+                <summary class="filters__summary">
+                  <svg class="filters__icon" aria-hidden="true">
+                    <use href="./images/symbol-defs.svg#bus"></use>
+                  </svg>
+                  <span class="filters__name">Tipo di vacanza</span>
+                </summary>
+                <ul class="filters__list" data-filter-list="holiday"></ul>
+              </details>
+
+              <details class="filters__group">
+                <summary class="filters__summary">
+                  <svg class="filters__icon" aria-hidden="true">
+                    <use href="./images/symbol-defs.svg#surf"></use>
+                  </svg>
+                  <span class="filters__name">Livello Surf</span>
+                </summary>
+                <ul class="filters__list" data-filter-list="level"></ul>
+              </details>
+
+              <details class="filters__group">
+                <summary class="filters__summary">
+                  <svg class="filters__icon" aria-hidden="true">
+                    <use href="./images/symbol-defs.svg#home"></use>
+                  </svg>
+                  <span class="filters__name">Sistemazione</span>
+                </summary>
+                <ul class="filters__list" data-filter-list="accommodation"></ul>
+              </details>
+
+              <details class="filters__group">
+                <summary class="filters__summary">
+                  <svg class="filters__icon" aria-hidden="true">
+                    <use href="./images/symbol-defs.svg#aqualung"></use>
+                  </svg>
+                  <span class="filters__name">Attività extra surf</span>
+                </summary>
+                <ul class="filters__list" data-filter-list="extras"></ul>
+              </details>
+            </section>
+
+            <template data-filter-template>
+              <li class="filters__item">
+                <label class="filters__option">
+                  <input
+                    class="filters__input"
+                    type="checkbox"
+                    form="search-form"
+                  />
+                  <span class="filters__box">
+                    <svg class="filters__check" aria-hidden="true">
+                      <use href="./images/symbol-defs.svg#galochka"></use>
+                    </svg>
+                  </span>
+                  <span class="filters__label"></span>
+                </label>
+              </li>
+            </template>
+          </aside>
+
+          <section class="layout__content">
+            <ul class="pacchetti__list search-list">
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-1.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-2.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-3.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-4.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-5.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-6.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-7.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-8.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-9.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-10.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-11.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-12.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-13.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-14.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-15.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-16.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+              <li class="pacchetti__item search-card">
+                <img
+                  src="./images/secondpage/Rectangle%2011-17.png"
+                  class="pacchetti__img search-card__img"
+                  alt="Surf camp in Morocco"
+                />
+                <span class="search-card__badge">Surf Camp</span>
+                <h2 class="pacchetti__title search-card__location">
+                  Africa, Marocco
+                </h2>
+                <p class="pacchetti__item__desc search-card__title">
+                  Jeffrey’s Bay Surf Camp in Hotel
+                </p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </section>
+      <section class="newletter">
+        <div class="newletter__inner">
+          <h2 class="newletter__title">
+            Iscriviti alla
+            <span class="newletter__title__accent">Newsletter</span>
+          </h2>
+          <form class="newletter__form">
+            <input
+              type="text"
+              class="newletter__input"
+              placeholder="Nome e Cognome"
+            />
+            <input
+              type="email"
+              class="newletter__input"
+              placeholder="Indirizzo e-mail"
+            />
+            <button class="newletter__button">Voglio iscrivermi!</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <div class="footer__wrapper">
+            <h2 class="footer__title">Surf & Travel</h2>
+            <h3 class="footer__subtitle">Surf & Travel Agency</h3>
+            <p class="footer__desc">
+              Tutte le destinazioni selezionate per la tua prossima vacanza Surf
+              e non solo.
+            </p>
+          </div>
+          <div class="footer__wrapper">
+            <h3 class="footer__list__title">Menu</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <svg class="footer__icon" aria-hidden="true">
+                    <use href="./images/symbol-defs.svg#surf"></use>
+                  </svg>
+                  Vacanze Surf
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <svg class="footer__icon" aria-hidden="true">
+                    <use href="./images/symbol-defs.svg#globus"></use>
+                  </svg>
+                  Destinazioni
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <svg class="footer__icon" aria-hidden="true">
+                    <use href="./images/symbol-defs.svg#home"></use>
+                  </svg>
+                  Sistemazioni
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <svg class="footer__icon" aria-hidden="true">
+                    <use href="./images/symbol-defs.svg#aqualung"></use>
+                  </svg>
+                  About
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__wrapper">
+            <h3 class="footer__contact__title">Contattaci</h3>
+            <ul class="footer__contact">
+              <li class="footer__contact__item">
+                <a href="#">
+                  <img
+                    src="./images/firstpage/mail-icon.png"
+                    alt="Email"
+                    class="footer__contact__img footer__contact__img--mail"
+                  />
+                </a>
+              </li>
+              <li class="footer__contact__item">
+                <a href="#">
+                  <img
+                    src="./images/firstpage/phone-icon.png"
+                    alt="Telefono"
+                    class="footer__contact__img footer__contact__img--phone"
+                  />
+                </a>
+              </li>
+              <li class="footer__contact__item">
+                <a href="#">
+                  <img
+                    src="./images/firstpage/whatsapp-icon.png"
+                    alt="WhatsApp"
+                    class="footer__contact__img footer__contact__img--wa"
+                  />
+                </a>
+              </li>
+            </ul>
+            <h3 class="footer__social__title">Seguici sui social</h3>
+            <ul class="footer__social">
+              <li class="footer__social__item">
+                <a href="#">
+                  <img
+                    src="./images/firstpage/facebook-icon.png"
+                    alt="Facebook"
+                    class="footer__social__img"
+                  />
+                </a>
+              </li>
+              <li class="footer__social__item">
+                <a href="#">
+                  <img
+                    src="./images/firstpage/insta-icon.png"
+                    alt="Instagram"
+                    class="footer__social__img footer__social__img--insta"
+                  />
+                </a>
+              </li>
+              <li class="footer__social__item">
+                <a href="#">
+                  <img
+                    src="./images/firstpage/youtube-icon.png"
+                    alt="YouTube"
+                    class="footer__social__img"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__credits">
+        <div class="footer__credits__inner">
+          <p class="footer__credits__title">
+            Design by Daniele Brusca and All website code by MMIC Team Project
+          </p>
+          <p class="footer__credits__nif">
+            SURF & TRAVEL AGENCY S.L. ~ NIF. V232423
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js" type="module"></script>
+  </body>
+</html>

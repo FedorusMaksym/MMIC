@@ -1,1 +1,2 @@
 import "./newletter"
+import "./sidebar"

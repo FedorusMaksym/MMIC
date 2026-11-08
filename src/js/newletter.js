@@ -2,8 +2,6 @@ const KEY = "newsletterSignup";
 const TTL_MS = 60 * 60 * 1000; // how long to keep the data (1 hour)
 
 const form = document.querySelector(".newletter__form");
-const nameInput = form.querySelector('input[type="text"]');
-const emailInput = form.querySelector('input[type="email"]');
 
 // Get saved data, delete it if too old
 function loadData() {
@@ -24,31 +22,36 @@ function loadData() {
   }
 }
 
-// When the page opens, show saved data and fill the inputs
-const saved = loadData();
-if (saved) {
-  console.log("Loaded:", saved);
-  nameInput.value = saved.name;
-  emailInput.value = saved.email;
-}
+if (form) {
+  const nameInput = form.querySelector('input[type="text"]');
+  const emailInput = form.querySelector('input[type="email"]');
 
-// When the form is sent, save the data
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-
-  const data = {
-    name: nameInput.value.trim(),
-    email: emailInput.value.trim(),
-    expiresAt: Date.now() + TTL_MS, // when to forget it
-  };
-
-  try {
-    localStorage.setItem(KEY, JSON.stringify(data));
-    console.log("Saved:", data);
-  } catch (err) {
-    console.error("Could not save:", err);
+  // When the page opens, show saved data and fill the inputs
+  const saved = loadData();
+  if (saved) {
+    console.log("Loaded:", saved);
+    nameInput.value = saved.name;
+    emailInput.value = saved.email;
   }
 
-  // Delete it after the time is up
-  setTimeout(loadData, TTL_MS + 100);
-});
+  // When the form is sent, save the data
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const data = {
+      name: nameInput.value.trim(),
+      email: emailInput.value.trim(),
+      expiresAt: Date.now() + TTL_MS, // when to forget it
+    };
+
+    try {
+      localStorage.setItem(KEY, JSON.stringify(data));
+      console.log("Saved:", data);
+    } catch (err) {
+      console.error("Could not save:", err);
+    }
+
+    // Delete it after the time is up
+    setTimeout(loadData, TTL_MS + 100);
+  });
+}
