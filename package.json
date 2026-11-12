@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev:parcel": "parcel src/*.html",
-    "dev:sass": "sass --watch src/scss/main.scss src/css/main.css",
-    "start": "run-p dev:sass dev:parcel"
+    "start:frontend": "parcel src/*.html",
+    "start:backend": "json-server db.json --port 3001",
+    "sass": "sass --watch src/scss/main.scss src/css/main.css",
+    "start": "run-p sass start:frontend start:backend",
+    "build": "parcel build src/*.html --dist-dir docs --public-url ./ --no-optimize"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
+    "json-server": "^1.0.0-beta.15",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.12.0",
     "parcel-namer-rewrite": "^2.16.4",
+    "parcel-resolver-ignore": "^2.2.1",
     "parcel-transformer-hbs": "^1.0.4"
   }
 }
