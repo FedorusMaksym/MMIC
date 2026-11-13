@@ -94,10 +94,10 @@ function applyFilters() {
 
   const filtered = allDestinations.filter(item => {
     const matchDest = (selected.destination.length === 0 && selected.country.length === 0) || 
-                      selected.destination.includes(item.countryId) || 
-                      selected.country.includes(item.countryId);
+                      selected.destination.includes(String(item.countryId)) || 
+                      selected.country.includes(String(item.countryId));
                       
-    const matchType = selected.holiday.length === 0 || selected.holiday.includes(item.categoryId);
+    const matchType = selected.holiday.length === 0 || selected.holiday.includes(String(item.categoryId));
 
     return matchDest && matchType;
   });
