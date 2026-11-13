@@ -2,6 +2,8 @@ import "./newletter"
 import "./dest"
 import "./sidebar"
 
+import dbUrl from 'url:../db.json';
+
 const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 
 const cardsContainer = document.querySelector('.search-list');
@@ -25,7 +27,7 @@ async function init() {
       categories = await categoriesRes.json();
       countries = await countriesRes.json();
     } else {
-      const res = await fetch('./db.json');
+      const res = await fetch(dbUrl);
       const data = await res.json();
       destinations = data.destinations || [];
       categories = data.categories || [];
