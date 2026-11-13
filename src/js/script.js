@@ -73,37 +73,36 @@ function populateFilters(type, items) {
 
 function applyFilters() {
   const checkedInputs = document.querySelectorAll('.filters__input:checked');
+  
+  console.log('Завантажені дані:', allDestinations);
+  console.log('Обрані чекбокси:', Array.from(checkedInputs).map(i => i.value));
+
+  if (allDestinations.length === 0) {
+    console.warn('Масив allDestinations порожній! Дані з db.json ще не підтягнулися.');
+    return;
+  }
 
   if (checkedInputs.length === 0) {
     renderCards(allDestinations);
     return;
   }
 
-  const selected = {
-    destination: [],
-    country: [],
-    holiday: []
-  };
-
-  checkedInputs.forEach(input => {
-    const type = input.dataset.filterType || input.name;
-    if (selected[type]) {
-      selected[type].push(input.value);
-    }
-  });
+  const selectedValues = Array.from(checkedInputs).map(input => String(input.value));
 
   const filtered = allDestinations.filter(item => {
-    const matchDest = (selected.destination.length === 0 && selected.country.length === 0) || 
-                      selected.destination.includes(String(item.countryId)) || 
-                      selected.country.includes(String(item.countryId));
-                      
-    const matchType = selected.holiday.length === 0 || selected.holiday.includes(String(item.categoryId));
+    const itemValue1 = String(item.countryId || item.country || '');
+    const itemValue2 = String(item.categoryId || item.category || '');
 
-    return matchDest && matchType;
+    return selectedValues.includes(itemValue1) || selectedValues.includes(itemValue2);
   });
 
+  console.log('Відфільтровані картки:', filtered);
   renderCards(filtered);
 }
+
+document.querySelectorAll('.filters__input').forEach(input => {
+  input.addEventListener('change', applyFilters);
+});
 
 function renderCards(items) {
   if (!cardsContainer) return;
