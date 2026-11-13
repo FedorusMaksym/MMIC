@@ -7,7 +7,7 @@
     "start:backend": "json-server db.json --port 3001",
     "sass": "sass --watch src/scss/main.scss src/css/main.css",
     "start": "run-p sass start:frontend start:backend",
-    "build": "npx parcel build src/*.html --dist-dir docs --public-url ./ --no-optimize"
+    "build": "node node_modules/parcel/lib/cli.js build src/*.html --dist-dir docs --public-url ./ --no-optimize"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
