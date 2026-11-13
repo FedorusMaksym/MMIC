@@ -136,7 +136,7 @@
 				"Багато кемпів і шкіл на будь-який бюджет",
 				"Близько до Лісабона"
 			],
-			"image": "/images/destinations/peniche/cover.jpg",
+			"image": "https://i.ibb.co/9m1gT4LV/Rectangle-11.png",
 			"gallery": [
 				"/images/destinations/peniche/1.jpg",
 				"/images/destinations/peniche/2.jpg",
@@ -169,7 +169,7 @@
 				"Оглядовий майданчик біля маяка",
 				"У воді лише для професіоналів"
 			],
-			"image": "/images/destinations/nazare/cover.jpg",
+			"image": "https://i.ibb.co/rYJLM55/Rectangle-11-1.png",
 			"gallery": [
 				"/images/destinations/nazare/1.jpg",
 				"/images/destinations/nazare/2.jpg",
@@ -202,7 +202,7 @@
 				"Затишне містечко з ресторанами морепродуктів",
 				"Лісабон за 50 хвилин"
 			],
-			"image": "/images/destinations/ericeira/cover.jpg",
+			"image": "https://i.ibb.co/N2g0kRz1/Rectangle-11-2.png",
 			"gallery": [
 				"/images/destinations/ericeira/1.jpg",
 				"/images/destinations/ericeira/2.jpg",
@@ -235,7 +235,7 @@
 				"Бюджетні кемпи з йогою",
 				"Прямі рейси до Агадіра з Європи"
 			],
-			"image": "/images/destinations/taghazout/cover.jpg",
+			"image": "https://i.ibb.co/cHRLW0B/Rectangle-11-3.png",
 			"gallery": [
 				"/images/destinations/taghazout/1.jpg",
 				"/images/destinations/taghazout/2.jpg",
@@ -268,7 +268,7 @@
 				"Хороше місце для прогресу після перших уроків",
 				"Берберська кухня й тажини"
 			],
-			"image": "/images/destinations/imsouane/cover.jpg",
+			"image": "https://i.ibb.co/6zTDf6K/Rectangle-11-4.png",
 			"gallery": [
 				"/images/destinations/imsouane/1.jpg",
 				"/images/destinations/imsouane/2.jpg",
@@ -301,7 +301,7 @@
 				"Серф-бренди та магазини",
 				"Велодоріжки соснового лісу"
 			],
-			"image": "/images/destinations/hossegor/cover.jpg",
+			"image": "https://i.ibb.co/DfgJyhz6/Rectangle-11-5.png",
 			"gallery": [
 				"/images/destinations/hossegor/1.jpg",
 				"/images/destinations/hossegor/2.jpg",
@@ -334,7 +334,7 @@
 				"Баскська кухня й піншоси",
 				"Сан-Себастьян поруч"
 			],
-			"image": "/images/destinations/biarritz/cover.jpg",
+			"image": "https://i.ibb.co/r2sgqny7/Rectangle-11-6.png",
 			"gallery": [
 				"/images/destinations/biarritz/1.jpg",
 				"/images/destinations/biarritz/2.jpg",
@@ -367,7 +367,7 @@
 				"Захід сонця в барі Single Fin",
 				"Лише для досвідчених у воді"
 			],
-			"image": "/images/destinations/uluwatu/cover.jpg",
+			"image": "https://i.ibb.co/S4mn349C/Rectangle-11-7.png",
 			"gallery": [
 				"/images/destinations/uluwatu/1.jpg",
 				"/images/destinations/uluwatu/2.jpg",
@@ -400,7 +400,7 @@
 				"Коворкінги й кав’ярні",
 				"Багато варіантів житла"
 			],
-			"image": "/images/destinations/canggu/cover.jpg",
+			"image": "https://i.ibb.co/8nF4KqLQ/Rectangle-11-8.png",
 			"gallery": [
 				"/images/destinations/canggu/1.jpg",
 				"/images/destinations/canggu/2.jpg",
@@ -433,46 +433,13 @@
 				"Десятки шкіл і прокатів",
 				"Старе місто Галле поруч"
 			],
-			"image": "/images/destinations/weligama/cover.jpg",
+			"image": "https://i.ibb.co/cHRLW0B/Rectangle-11-3.png",
 			"gallery": [
 				"/images/destinations/weligama/1.jpg",
 				"/images/destinations/weligama/2.jpg",
 				"/images/destinations/weligama/3.jpg"
 			],
 			"featured": true
-		},
-		{
-			"id": "arugam-bay",
-			"name": "Arugam Bay",
-			"countryId": "sri-lanka",
-			"city": "Аругам-Бей",
-			"region": "Східна провінція",
-			"categoryId": "surf-camp",
-			"shortDescription": "Поінт-брейки на сході Шрі-Ланки з літнім сезоном.",
-			"description": "Містечко з десятками кемпів і кількома поінтами: Main Point, Whiskey Point та Peanut Farm. Сезон триває з травня по вересень, а навколо лагуни та національний парк Кумана.",
-			"coordinates": {
-				"lat": 6.84,
-				"lng": 81.84
-			},
-			"difficulty": 3,
-			"waveType": "point-break",
-			"waterTempC": 28,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [5, 6, 7, 8, 9],
-			"features": [
-				"Поінт-брейки різної складності",
-				"Сезон із травня до вересня",
-				"Сафарі й птахи в національному парку Кумана",
-				"Невимушена атмосфера"
-			],
-			"image": "/images/destinations/arugam-bay/cover.jpg",
-			"gallery": [
-				"/images/destinations/arugam-bay/1.jpg",
-				"/images/destinations/arugam-bay/2.jpg",
-				"/images/destinations/arugam-bay/3.jpg"
-			],
-			"featured": false
 		},
 		{
 			"id": "santa-teresa",
@@ -499,7 +466,7 @@
 				"Джунглі просто біля пляжу",
 				"Заходи сонця над Тихим океаном"
 			],
-			"image": "/images/destinations/santa-teresa/cover.jpg",
+			"image": "https://i.ibb.co/C5fV2Bm2/Rectangle-11-10.png",
 			"gallery": [
 				"/images/destinations/santa-teresa/1.jpg",
 				"/images/destinations/santa-teresa/2.jpg",
@@ -532,7 +499,7 @@
 				"Зручно добиратися з Ліберії",
 				"Жваве нічне життя"
 			],
-			"image": "/images/destinations/tamarindo/cover.jpg",
+			"image": "https://i.ibb.co/pjbcTJLn/Rectangle-11-11.png",
 			"gallery": [
 				"/images/destinations/tamarindo/1.jpg",
 				"/images/destinations/tamarindo/2.jpg",
@@ -565,7 +532,7 @@
 				"Оренда дощок на пляжі",
 				"Місто Гонолулу поруч"
 			],
-			"image": "/images/destinations/waikiki/cover.jpg",
+			"image": "https://i.ibb.co/xqVJZRc6/Rectangle-11-12.png",
 			"gallery": [
 				"/images/destinations/waikiki/1.jpg",
 				"/images/destinations/waikiki/2.jpg",
@@ -598,7 +565,7 @@
 				"Небезпечний мілкий риф",
 				"Щорічне змагання Pipe Masters"
 			],
-			"image": "/images/destinations/pipeline/cover.jpg",
+			"image": "https://i.ibb.co/dwqYrbGV/Rectangle-11-13.png",
 			"gallery": [
 				"/images/destinations/pipeline/1.jpg",
 				"/images/destinations/pipeline/2.jpg",
@@ -631,7 +598,7 @@
 				"Лише для професіоналів",
 				"Сан-Франциско неподалік"
 			],
-			"image": "/images/destinations/mavericks/cover.jpg",
+			"image": "https://i.ibb.co/nNDCZdkF/Rectangle-11-14.png",
 			"gallery": [
 				"/images/destinations/mavericks/1.jpg",
 				"/images/destinations/mavericks/2.jpg",
@@ -664,7 +631,7 @@
 				"Високий рівень місцевих серферів",
 				"Розвинена туристична інфраструктура"
 			],
-			"image": "/images/destinations/gold-coast/cover.jpg",
+			"image": "https://i.ibb.co/k2LQmLRc/Rectangle-11-15.png",
 			"gallery": [
 				"/images/destinations/gold-coast/1.jpg",
 				"/images/destinations/gold-coast/2.jpg",
@@ -697,7 +664,7 @@
 				"Ринки й екологічна кухня",
 				"Часті зустрічі з дельфінами"
 			],
-			"image": "/images/destinations/byron-bay/cover.jpg",
+			"image": "https://i.ibb.co/Hpp3VQ1y/Rectangle-11-16.png",
 			"gallery": [
 				"/images/destinations/byron-bay/1.jpg",
 				"/images/destinations/byron-bay/2.jpg",
@@ -730,176 +697,11 @@
 				"Гідрокостюм обов’язковий",
 				"Boneyards і Magna Tubes поруч"
 			],
-			"image": "/images/destinations/jeffreys-bay/cover.jpg",
+			"image": "https://i.ibb.co/nsxrxZ7v/Rectangle-11-17.png",
 			"gallery": [
 				"/images/destinations/jeffreys-bay/1.jpg",
 				"/images/destinations/jeffreys-bay/2.jpg",
 				"/images/destinations/jeffreys-bay/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "muizenberg",
-			"name": "Muizenberg",
-			"countryId": "south-africa",
-			"city": "Кейптаун",
-			"region": "Західний Кейп",
-			"categoryId": "surf-school",
-			"shortDescription": "Найкраще місце Кейптауна для першого уроку серфінгу.",
-			"description": "Довгий піщаний пляж із пологими хвилями й барвистими пляжними будиночками. Тут багато шкіл і прокатів, а поруч кав’ярні. Вода холодна, а на пляжі діє програма Shark Spotters із прапорами.",
-			"coordinates": {
-				"lat": -34.1,
-				"lng": 18.47
-			},
-			"difficulty": 1,
-			"waveType": "beach-break",
-			"waterTempC": 17,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [11, 12, 1, 2, 3, 4],
-			"features": [
-				"Пологі хвилі й піщане дно",
-				"Кольорові пляжні будиночки",
-				"Програма Shark Spotters",
-				"Близько до центру Кейптауна"
-			],
-			"image": "/images/destinations/muizenberg/cover.jpg",
-			"gallery": [
-				"/images/destinations/muizenberg/1.jpg",
-				"/images/destinations/muizenberg/2.jpg",
-				"/images/destinations/muizenberg/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "sayulita",
-			"name": "Sayulita",
-			"countryId": "mexico",
-			"city": "Саюліта",
-			"region": "Наярит",
-			"categoryId": "surf-yoga",
-			"shortDescription": "Яскраве містечко з м’якими хвилями поруч із Пуерто-Вальярта.",
-			"description": "Невелика бухта з дружніми хвилями для новачків і лонгбордистів, а поруч є кілька хвиль для просунутих. Містечко славиться вуличним мистецтвом, фестивалями й йога-студіями.",
-			"coordinates": {
-				"lat": 20.87,
-				"lng": -105.44
-			},
-			"difficulty": 2,
-			"waveType": "beach-break",
-			"waterTempC": 27,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [5, 6, 7, 8, 9, 10, 11],
-			"features": [
-				"Хвилі для початківців у бухті",
-				"Йога-студії та веллнес",
-				"Яскрава мексиканська атмосфера",
-				"Пуерто-Вальярта за годину"
-			],
-			"image": "/images/destinations/sayulita/cover.jpg",
-			"gallery": [
-				"/images/destinations/sayulita/1.jpg",
-				"/images/destinations/sayulita/2.jpg",
-				"/images/destinations/sayulita/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "puerto-escondido",
-			"name": "Puerto Escondido",
-			"countryId": "mexico",
-			"city": "Пуерто-Ескондідо",
-			"region": "Оахака",
-			"categoryId": "big-wave",
-			"shortDescription": "«Мексиканський Pipeline»: потужні піщані труби пляжу Сикатела.",
-			"description": "Пляж Zicatela постійно ловить сильні тихоокеанські свелли й формує глибокі піщані труби, які працюють із квітня по вересень. Для менш досвідчених є м’якші бухти Carrizalillo та Puerto Angelito.",
-			"coordinates": {
-				"lat": 15.86,
-				"lng": -97.07
-			},
-			"difficulty": 5,
-			"waveType": "beach-break",
-			"waterTempC": 28,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [4, 5, 6, 7, 8, 9],
-			"features": [
-				"Zicatela — потужні піщані труби",
-				"Carrizalillo — м’якші хвилі для навчання",
-				"Сезон із квітня до вересня",
-				"Високий рівень місцевих серферів"
-			],
-			"image": "/images/destinations/puerto-escondido/cover.jpg",
-			"gallery": [
-				"/images/destinations/puerto-escondido/1.jpg",
-				"/images/destinations/puerto-escondido/2.jpg",
-				"/images/destinations/puerto-escondido/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "siargao",
-			"name": "Siargao — Cloud 9",
-			"countryId": "philippines",
-			"city": "Дженерал-Луна",
-			"region": "Сурігао-дель-Норте",
-			"categoryId": "iconic-spot",
-			"shortDescription": "Острів серфінгу з рифовою правою Cloud 9.",
-			"description": "Острів із пальмами, лагунами та відомою правою Cloud 9, яка приймала міжнародні змагання. Сезон хвиль триває з серпня до листопада, а поза сезоном тут тихо й недорого.",
-			"coordinates": {
-				"lat": 9.81,
-				"lng": 126.16
-			},
-			"difficulty": 4,
-			"waveType": "reef-break",
-			"waterTempC": 29,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [8, 9, 10, 11],
-			"features": [
-				"Cloud 9 — відома рифова права",
-				"Лагуни та острови поруч",
-				"Пік сезону — вересень–листопад",
-				"Недорогий відпочинок поза сезоном"
-			],
-			"image": "/images/destinations/siargao/cover.jpg",
-			"gallery": [
-				"/images/destinations/siargao/1.jpg",
-				"/images/destinations/siargao/2.jpg",
-				"/images/destinations/siargao/3.jpg"
-			],
-			"featured": true
-		},
-		{
-			"id": "baler",
-			"name": "Baler",
-			"countryId": "philippines",
-			"city": "Балер",
-			"region": "Аврора",
-			"categoryId": "surf-school",
-			"shortDescription": "Колиска філіппінського серфінгу з пляжем Sabang.",
-			"description": "Серфінг тут з’явився у 1970-х після зйомок фільму «Апокаліпсис сьогодні». Пляж Sabang має м’які піщані хвилі та школи, а біля міста є водоспади й рибальські селища.",
-			"coordinates": {
-				"lat": 15.76,
-				"lng": 121.57
-			},
-			"difficulty": 2,
-			"waveType": "beach-break",
-			"waterTempC": 28,
-			"crowdLevel": 1,
-			"priceLevel": 1,
-			"bestMonths": [9, 10, 11, 12, 1, 2, 3],
-			"features": [
-				"Піщані хвилі для початківців",
-				"Сезон із вересня до березня",
-				"Водоспади Дітумабо поруч",
-				"Спокійний невеликий курорт"
-			],
-			"image": "/images/destinations/baler/cover.jpg",
-			"gallery": [
-				"/images/destinations/baler/1.jpg",
-				"/images/destinations/baler/2.jpg",
-				"/images/destinations/baler/3.jpg"
 			],
 			"featured": false
 		}
