@@ -2,7 +2,7 @@ import "./newletter"
 import "./dest"
 import "./sidebar"
 
-const API_BASE = 'http://localhost:3001';
+const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 
 const cardsContainer = document.querySelector('.search-list');
 const templateInput = document.querySelector('[data-filter-template]');
@@ -13,15 +13,27 @@ let allCountries = [];
 
 async function init() {
   try {
-    const [destRes, categoriesRes, countriesRes] = await Promise.all([
-      fetch(`${API_BASE}/destinations`),
-      fetch(`${API_BASE}/categories`),
-      fetch(`${API_BASE}/countries`)
-    ]);
+    let destinations, categories, countries;
 
-    allDestinations = await destRes.json();
-    const categories = await categoriesRes.json();
-    allCountries = await countriesRes.json();
+    if (isLocal) {
+      const [destRes, categoriesRes, countriesRes] = await Promise.all([
+        fetch('http://localhost:3001/destinations'),
+        fetch('http://localhost:3001/categories'),
+        fetch('http://localhost:3001/countries')
+      ]);
+      destinations = await destRes.json();
+      categories = await categoriesRes.json();
+      countries = await countriesRes.json();
+    } else {
+      const res = await fetch('./db.json');
+      const data = await res.json();
+      destinations = data.destinations || [];
+      categories = data.categories || [];
+      countries = data.countries || [];
+    }
+
+    allDestinations = destinations;
+    allCountries = countries;
 
     populateFilters('holiday', categories);
     populateFilters('destination', allCountries);
