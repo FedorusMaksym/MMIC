@@ -1,0 +1,18 @@
+{{#each items}}
+  <li class="pacchetti__item search-card">
+    <img
+      src="{{image}}"
+      class="pacchetti__img search-card__img"
+      alt="{{alt}}"
+    />
+    <span class="search-card__badge">{{badge}}</span>
+    <h2 class="pacchetti__title search-card__location">
+      {{locationText}}
+    </h2>
+    <p class="pacchetti__item__desc search-card__title">
+      {{title}}
+    </p>
+  </li>
+{{else}}
+  <p style="padding: 20px;">Nessun pacchetto trovato.</p>
+{{/each}}
