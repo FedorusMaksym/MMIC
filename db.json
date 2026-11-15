@@ -1,907 +1,847 @@
 {
-	"countries": [
-		{
-			"id": "portugal",
-			"name": "Португалія",
-			"nameEn": "Portugal",
-			"code": "PT",
-			"continent": "Європа"
-		},
-		{
-			"id": "morocco",
-			"name": "Марокко",
-			"nameEn": "Morocco",
-			"code": "MA",
-			"continent": "Африка"
-		},
-		{
-			"id": "france",
-			"name": "Франція",
-			"nameEn": "France",
-			"code": "FR",
-			"continent": "Європа"
-		},
-		{
-			"id": "indonesia",
-			"name": "Індонезія",
-			"nameEn": "Indonesia",
-			"code": "ID",
-			"continent": "Азія"
-		},
-		{
-			"id": "sri-lanka",
-			"name": "Шрі-Ланка",
-			"nameEn": "Sri Lanka",
-			"code": "LK",
-			"continent": "Азія"
-		},
-		{
-			"id": "philippines",
-			"name": "Філіппіни",
-			"nameEn": "Philippines",
-			"code": "PH",
-			"continent": "Азія"
-		},
-		{
-			"id": "costa-rica",
-			"name": "Коста-Рика",
-			"nameEn": "Costa Rica",
-			"code": "CR",
-			"continent": "Америка"
-		},
-		{
-			"id": "mexico",
-			"name": "Мексика",
-			"nameEn": "Mexico",
-			"code": "MX",
-			"continent": "Америка"
-		},
-		{
-			"id": "usa",
-			"name": "США",
-			"nameEn": "United States",
-			"code": "US",
-			"continent": "Америка"
-		},
-		{
-			"id": "australia",
-			"name": "Австралія",
-			"nameEn": "Australia",
-			"code": "AU",
-			"continent": "Океанія"
-		},
-		{
-			"id": "south-africa",
-			"name": "ПАР",
-			"nameEn": "South Africa",
-			"code": "ZA",
-			"continent": "Африка"
-		}
-	],
-	"categories": [
-		{
-			"id": "surf-camp",
-			"name": "Серф-кемпи",
-			"description": "Регіони, де зручно жити у серф-кемпі: проживання, дошки, інструктори й спільнота.",
-			"icon": "tent"
-		},
-		{
-			"id": "iconic-spot",
-			"name": "Легендарні споти",
-			"description": "Хвилі з міжнародною славою, заради яких їдуть через пів світу.",
-			"icon": "star"
-		},
-		{
-			"id": "surf-school",
-			"name": "Для навчання",
-			"description": "М’які хвилі, безпечне дно й багато шкіл для перших кроків у серфінгу.",
-			"icon": "graduation-cap"
-		},
-		{
-			"id": "big-wave",
-			"name": "Big wave",
-			"description": "Гігантські хвилі для професіоналів і місця, де на них можна дивитися з берега.",
-			"icon": "waves"
-		},
-		{
-			"id": "surf-yoga",
-			"name": "Surf & Yoga",
-			"description": "Серф у поєднанні з йогою, джунглями й неспішним ритмом життя.",
-			"icon": "lotus"
-		}
-	],
-	"destinations": [
-		{
-			"id": "peniche",
-			"name": "Peniche — Supertubos & Baleal",
-			"countryId": "portugal",
-			"city": "Пеніше",
-			"region": "Центральний регіон",
-			"categoryId": "surf-camp",
-			"shortDescription": "Серф-столиця Португалії з хвилею Supertubos і десятками кемпів.",
-			"description": "Півострів Пеніше виходить в океан з двох боків, тому майже завжди знайдеться пляж із чистою хвилею. Поруч розташовані й потужні піщані труби Supertubos, і м’які пляжі для новачків. До Лісабона близько години-півтори дороги.",
-			"coordinates": {
-				"lat": 39.36,
-				"lng": -9.38
-			},
-			"difficulty": 3,
-			"waveType": "beach-break",
-			"waterTempC": 16,
-			"crowdLevel": 3,
-			"priceLevel": 2,
-			"bestMonths": [3, 4, 9, 10, 11],
-			"features": [
-				"Знаменита хвиля Supertubos",
-				"Хвилі для різного рівня за кілька хвилин одна від одної",
-				"Багато кемпів і шкіл на будь-який бюджет",
-				"Близько до Лісабона"
-			],
-			"image": "/images/destinations/peniche/cover.jpg",
-			"gallery": [
-				"/images/destinations/peniche/1.jpg",
-				"/images/destinations/peniche/2.jpg",
-				"/images/destinations/peniche/3.jpg"
-			],
-			"featured": true
-		},
-		{
-			"id": "nazare",
-			"name": "Nazaré",
-			"countryId": "portugal",
-			"city": "Назаре",
-			"region": "Центральний регіон",
-			"categoryId": "big-wave",
-			"shortDescription": "Місце, де океан створює одні з найбільших у світі хвилі.",
-			"description": "Підводний каньйон біля мису Прайя-ду-Норте підсилює зимові свелли, і хвилі тут сягають висоти багатоповерхівки. У воді це територія професійних big wave серферів, а всім іншим пропонується оглядовий майданчик біля форту й маяка.",
-			"coordinates": {
-				"lat": 39.6,
-				"lng": -9.07
-			},
-			"difficulty": 5,
-			"waveType": "beach-break",
-			"waterTempC": 16,
-			"crowdLevel": 1,
-			"priceLevel": 2,
-			"bestMonths": [10, 11, 12, 1, 2],
-			"features": [
-				"Підводний каньйон підсилює хвилі",
-				"Сезон гігантських хвиль — з жовтня до лютого",
-				"Оглядовий майданчик біля маяка",
-				"У воді лише для професіоналів"
-			],
-			"image": "/images/destinations/nazare/cover.jpg",
-			"gallery": [
-				"/images/destinations/nazare/1.jpg",
-				"/images/destinations/nazare/2.jpg",
-				"/images/destinations/nazare/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "ericeira",
-			"name": "Ericeira",
-			"countryId": "portugal",
-			"city": "Ерісейра",
-			"region": "Лісабонський регіон",
-			"categoryId": "surf-camp",
-			"shortDescription": "Біле рибальське містечко й Всесвітній серф-заповідник із рифовими хвилями.",
-			"description": "Містечко приблизно за 50 км від Лісабона має кілька хвиль на відстані пішої ходи, від м’яких до серйозних рифових. Тут вчаться початківці, а просунуті серфери їдуть на відому праву Coxos.",
-			"coordinates": {
-				"lat": 38.96,
-				"lng": -9.42
-			},
-			"difficulty": 3,
-			"waveType": "reef-break",
-			"waterTempC": 16,
-			"crowdLevel": 2,
-			"priceLevel": 2,
-			"bestMonths": [3, 4, 9, 10, 11],
-			"features": [
-				"Статус Всесвітнього серф-заповідника",
-				"Кілька хвиль біля міста для різного рівня",
-				"Затишне містечко з ресторанами морепродуктів",
-				"Лісабон за 50 хвилин"
-			],
-			"image": "/images/destinations/ericeira/cover.jpg",
-			"gallery": [
-				"/images/destinations/ericeira/1.jpg",
-				"/images/destinations/ericeira/2.jpg",
-				"/images/destinations/ericeira/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "taghazout",
-			"name": "Taghazout",
-			"countryId": "morocco",
-			"city": "Тагазут",
-			"region": "Сус-Масса",
-			"categoryId": "surf-camp",
-			"shortDescription": "Рибальське село з довгими правими хвилями та серф-кемпами з йогою.",
-			"description": "Уздовж узбережжя на північ від Агадіра є ряд поінт-брейків, зокрема Anchor Point, що працюють у період зимових свеллів. Багато бюджетних кемпів, дружня атмосфера й тепліше за Європу взимку.",
-			"coordinates": {
-				"lat": 30.54,
-				"lng": -9.71
-			},
-			"difficulty": 3,
-			"waveType": "point-break",
-			"waterTempC": 19,
-			"crowdLevel": 3,
-			"priceLevel": 1,
-			"bestMonths": [10, 11, 12, 1, 2, 3],
-			"features": [
-				"Anchor Point — довга права хвиля",
-				"Сезон із жовтня до березня",
-				"Бюджетні кемпи з йогою",
-				"Прямі рейси до Агадіра з Європи"
-			],
-			"image": "/images/destinations/taghazout/cover.jpg",
-			"gallery": [
-				"/images/destinations/taghazout/1.jpg",
-				"/images/destinations/taghazout/2.jpg",
-				"/images/destinations/taghazout/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "imsouane",
-			"name": "Imsouane",
-			"countryId": "morocco",
-			"city": "Імсуан",
-			"region": "Сус-Масса",
-			"categoryId": "surf-camp",
-			"shortDescription": "Одна з найдовших хвиль Африки для довгих проїздів на лонгборді.",
-			"description": "Невелике містечко між Агадіром і Ессувейрою має дві хвилі в бухті: The Bay та Cathedrals. Довгі м’які праві хвилі дають змогу проїхати сотні метрів і підходять тим, хто вже стоїть на дошці.",
-			"coordinates": {
-				"lat": 30.84,
-				"lng": -9.82
-			},
-			"difficulty": 2,
-			"waveType": "point-break",
-			"waterTempC": 19,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [10, 11, 12, 1, 2, 3, 4],
-			"features": [
-				"Довгі м’які хвилі для лонгборду",
-				"Тихе містечко без нічного життя",
-				"Хороше місце для прогресу після перших уроків",
-				"Берберська кухня й тажини"
-			],
-			"image": "/images/destinations/imsouane/cover.jpg",
-			"gallery": [
-				"/images/destinations/imsouane/1.jpg",
-				"/images/destinations/imsouane/2.jpg",
-				"/images/destinations/imsouane/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "hossegor",
-			"name": "Hossegor",
-			"countryId": "france",
-			"city": "Осегор",
-			"region": "Нова Аквітанія",
-			"categoryId": "iconic-spot",
-			"shortDescription": "Потужні піщані труби Атлантики й серф-культура Європи.",
-			"description": "Піщані банки La Gravière та інші формують порожнисті швидкі хвилі, які не раз приймали етапи світового туру. Поруч сосновий ліс, велодоріжки та магазини серф-брендів.",
-			"coordinates": {
-				"lat": 43.66,
-				"lng": -1.44
-			},
-			"difficulty": 4,
-			"waveType": "beach-break",
-			"waterTempC": 17,
-			"crowdLevel": 3,
-			"priceLevel": 3,
-			"bestMonths": [9, 10, 11],
-			"features": [
-				"Піщані труби La Gravière",
-				"Пік сезону — осінь",
-				"Серф-бренди та магазини",
-				"Велодоріжки соснового лісу"
-			],
-			"image": "/images/destinations/hossegor/cover.jpg",
-			"gallery": [
-				"/images/destinations/hossegor/1.jpg",
-				"/images/destinations/hossegor/2.jpg",
-				"/images/destinations/hossegor/3.jpg"
-			],
-			"featured": true
-		},
-		{
-			"id": "biarritz",
-			"name": "Biarritz",
-			"countryId": "france",
-			"city": "Біарріц",
-			"region": "Нова Аквітанія",
-			"categoryId": "surf-school",
-			"shortDescription": "Колиска європейського серфінгу й м’які хвилі в елегантному курортному місті.",
-			"description": "Пляжі Côte des Basques та Grande Plage дають повільні хвилі для лонгборду й навчання. Окрім серфінгу, тут курортна архітектура, баскська кухня та близькість до Іспанії.",
-			"coordinates": {
-				"lat": 43.48,
-				"lng": -1.56
-			},
-			"difficulty": 2,
-			"waveType": "beach-break",
-			"waterTempC": 17,
-			"crowdLevel": 3,
-			"priceLevel": 3,
-			"bestMonths": [6, 7, 8, 9, 10],
-			"features": [
-				"Вважається колискою серфінгу в Європі",
-				"Лонгборд-хвилі та багато шкіл",
-				"Баскська кухня й піншоси",
-				"Сан-Себастьян поруч"
-			],
-			"image": "/images/destinations/biarritz/cover.jpg",
-			"gallery": [
-				"/images/destinations/biarritz/1.jpg",
-				"/images/destinations/biarritz/2.jpg",
-				"/images/destinations/biarritz/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "uluwatu",
-			"name": "Uluwatu",
-			"countryId": "indonesia",
-			"city": "Улувату",
-			"region": "Балі",
-			"categoryId": "iconic-spot",
-			"shortDescription": "Легендарні рифові хвилі під скелями на півдні Балі.",
-			"description": "Під високими скелями розташовано кілька рифових хвиль, які працюють у сухий сезон: Racetrack, Temples і Outside Corner. До води спускаються через печеру, а швидка потужна хвиля підходить лише впевненим у собі серферам.",
-			"coordinates": {
-				"lat": -8.83,
-				"lng": 115.08
-			},
-			"difficulty": 4,
-			"waveType": "reef-break",
-			"waterTempC": 28,
-			"crowdLevel": 3,
-			"priceLevel": 2,
-			"bestMonths": [5, 6, 7, 8, 9],
-			"features": [
-				"Вхід у воду через печеру",
-				"Сухий сезон — травень–вересень",
-				"Захід сонця в барі Single Fin",
-				"Лише для досвідчених у воді"
-			],
-			"image": "/images/destinations/uluwatu/cover.jpg",
-			"gallery": [
-				"/images/destinations/uluwatu/1.jpg",
-				"/images/destinations/uluwatu/2.jpg",
-				"/images/destinations/uluwatu/3.jpg"
-			],
-			"featured": true
-		},
-		{
-			"id": "canggu",
-			"name": "Canggu",
-			"countryId": "indonesia",
-			"city": "Чангу",
-			"region": "Балі",
-			"categoryId": "surf-yoga",
-			"shortDescription": "Серф, йога й кав’ярні: зручна база для першої подорожі на Балі.",
-			"description": "Пляжі Batu Bolong, Echo Beach та Old Man’s пропонують хвилі різного рівня. У містечку багато йога-студій, коворкінгів і кав’ярень, тому це популярне місце серед тих, хто поєднує серфінг із віддаленою роботою.",
-			"coordinates": {
-				"lat": -8.65,
-				"lng": 115.13
-			},
-			"difficulty": 2,
-			"waveType": "beach-break",
-			"waterTempC": 28,
-			"crowdLevel": 3,
-			"priceLevel": 2,
-			"bestMonths": [4, 5, 6, 7, 8, 9, 10],
-			"features": [
-				"Batu Bolong для лонгборду й новачків",
-				"Йога та веллнес",
-				"Коворкінги й кав’ярні",
-				"Багато варіантів житла"
-			],
-			"image": "/images/destinations/canggu/cover.jpg",
-			"gallery": [
-				"/images/destinations/canggu/1.jpg",
-				"/images/destinations/canggu/2.jpg",
-				"/images/destinations/canggu/3.jpg"
-			],
-			"featured": true
-		},
-		{
-			"id": "weligama",
-			"name": "Weligama",
-			"countryId": "sri-lanka",
-			"city": "Веліґама",
-			"region": "Південна провінція",
-			"categoryId": "surf-school",
-			"shortDescription": "М’яка піщана бухта: найкраще місце на острові для перших хвиль.",
-			"description": "Довга бухта з пологими хвилями, піщаним дном і теплою водою. У сезон тут десятки шкіл та прокатів, а неподалік є старе місто Галле й гарні пляжі.",
-			"coordinates": {
-				"lat": 5.97,
-				"lng": 80.43
-			},
-			"difficulty": 1,
-			"waveType": "beach-break",
-			"waterTempC": 28,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [11, 12, 1, 2, 3, 4],
-			"features": [
-				"Тепла вода близько +28 °C",
-				"Піщане дно й пологі хвилі",
-				"Десятки шкіл і прокатів",
-				"Старе місто Галле поруч"
-			],
-			"image": "/images/destinations/weligama/cover.jpg",
-			"gallery": [
-				"/images/destinations/weligama/1.jpg",
-				"/images/destinations/weligama/2.jpg",
-				"/images/destinations/weligama/3.jpg"
-			],
-			"featured": true
-		},
-		{
-			"id": "arugam-bay",
-			"name": "Arugam Bay",
-			"countryId": "sri-lanka",
-			"city": "Аругам-Бей",
-			"region": "Східна провінція",
-			"categoryId": "surf-camp",
-			"shortDescription": "Поінт-брейки на сході Шрі-Ланки з літнім сезоном.",
-			"description": "Містечко з десятками кемпів і кількома поінтами: Main Point, Whiskey Point та Peanut Farm. Сезон триває з травня по вересень, а навколо лагуни та національний парк Кумана.",
-			"coordinates": {
-				"lat": 6.84,
-				"lng": 81.84
-			},
-			"difficulty": 3,
-			"waveType": "point-break",
-			"waterTempC": 28,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [5, 6, 7, 8, 9],
-			"features": [
-				"Поінт-брейки різної складності",
-				"Сезон із травня до вересня",
-				"Сафарі й птахи в національному парку Кумана",
-				"Невимушена атмосфера"
-			],
-			"image": "/images/destinations/arugam-bay/cover.jpg",
-			"gallery": [
-				"/images/destinations/arugam-bay/1.jpg",
-				"/images/destinations/arugam-bay/2.jpg",
-				"/images/destinations/arugam-bay/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "santa-teresa",
-			"name": "Santa Teresa",
-			"countryId": "costa-rica",
-			"city": "Санта-Тереса",
-			"region": "Нікоя, Пунтаренас",
-			"categoryId": "surf-yoga",
-			"shortDescription": "Піщані хвилі, джунглі й йога на безлюдних пляжах Нікої.",
-			"description": "Довгий пляж із багатьма піками, пальмами та джунглями. Стабільні хвилі, спокійні вечори, йога-студії та кемпи приваблюють тих, хто шукає баланс між серфінгом і відпочинком.",
-			"coordinates": {
-				"lat": 9.65,
-				"lng": -85.17
-			},
-			"difficulty": 3,
-			"waveType": "beach-break",
-			"waterTempC": 28,
-			"crowdLevel": 2,
-			"priceLevel": 2,
-			"bestMonths": [12, 1, 2, 3, 4, 5],
-			"features": [
-				"Стабільні піщані хвилі",
-				"Йога й веллнес-ретріти",
-				"Джунглі просто біля пляжу",
-				"Заходи сонця над Тихим океаном"
-			],
-			"image": "/images/destinations/santa-teresa/cover.jpg",
-			"gallery": [
-				"/images/destinations/santa-teresa/1.jpg",
-				"/images/destinations/santa-teresa/2.jpg",
-				"/images/destinations/santa-teresa/3.jpg"
-			],
-			"featured": true
-		},
-		{
-			"id": "tamarindo",
-			"name": "Tamarindo",
-			"countryId": "costa-rica",
-			"city": "Тамаріндо",
-			"region": "Гуанакасте",
-			"categoryId": "surf-school",
-			"shortDescription": "Зручний вхід у серфінг: широка бухта й багато шкіл.",
-			"description": "Курортне містечко в Гуанакасте з тривалим сезоном, піщаними хвилями для початківців і відомими Playa Grande та Playa Negra поруч. Багато шкіл, ресторанів і зручна дорога з аеропорту Ліберії.",
-			"coordinates": {
-				"lat": 10.3,
-				"lng": -85.84
-			},
-			"difficulty": 2,
-			"waveType": "beach-break",
-			"waterTempC": 28,
-			"crowdLevel": 2,
-			"priceLevel": 2,
-			"bestMonths": [12, 1, 2, 3, 4, 5, 6],
-			"features": [
-				"Багато шкіл і прокатів дощок",
-				"Playa Grande та Playa Negra поруч",
-				"Зручно добиратися з Ліберії",
-				"Жваве нічне життя"
-			],
-			"image": "/images/destinations/tamarindo/cover.jpg",
-			"gallery": [
-				"/images/destinations/tamarindo/1.jpg",
-				"/images/destinations/tamarindo/2.jpg",
-				"/images/destinations/tamarindo/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "waikiki",
-			"name": "Waikiki",
-			"countryId": "usa",
-			"city": "Вайкікі",
-			"region": "Оаху, Гаваї",
-			"categoryId": "surf-school",
-			"shortDescription": "Історичне місце серфінгу: довгі м’які хвилі в центрі Гонолулу.",
-			"description": "Рифові хвилі Canoes, Queens і Populars дають довгі пологі проїзди, особливо влітку під час південних свеллів. Дошки орендують прямо на пляжі, а поруч стоїть пам’ятник Дюку Каханамоку.",
-			"coordinates": {
-				"lat": 21.27,
-				"lng": -157.83
-			},
-			"difficulty": 1,
-			"waveType": "reef-break",
-			"waterTempC": 26,
-			"crowdLevel": 3,
-			"priceLevel": 3,
-			"bestMonths": [5, 6, 7, 8, 9],
-			"features": [
-				"Історична колиска сучасного серфінгу",
-				"Літній південний свелл",
-				"Оренда дощок на пляжі",
-				"Місто Гонолулу поруч"
-			],
-			"image": "/images/destinations/waikiki/cover.jpg",
-			"gallery": [
-				"/images/destinations/waikiki/1.jpg",
-				"/images/destinations/waikiki/2.jpg",
-				"/images/destinations/waikiki/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "pipeline",
-			"name": "Pipeline",
-			"countryId": "usa",
-			"city": "Пупукеа",
-			"region": "Північний берег Оаху, Гаваї",
-			"categoryId": "big-wave",
-			"shortDescription": "Одна з найвідоміших і найнебезпечніших труб у світі.",
-			"description": "Неглибокий риф створює порожнисту бочку над самим дном, а взимку на Північному березі збираються найкращі серфери світу. Для більшості подорожніх це місце для спостереження з пляжу Ehukai, а не для катання.",
-			"coordinates": {
-				"lat": 21.66,
-				"lng": -158.05
-			},
-			"difficulty": 5,
-			"waveType": "reef-break",
-			"waterTempC": 25,
-			"crowdLevel": 3,
-			"priceLevel": 3,
-			"bestMonths": [11, 12, 1, 2],
-			"features": [
-				"Зимовий сезон — з листопада до лютого",
-				"Пляж Ehukai — місце для глядачів",
-				"Небезпечний мілкий риф",
-				"Щорічне змагання Pipe Masters"
-			],
-			"image": "/images/destinations/pipeline/cover.jpg",
-			"gallery": [
-				"/images/destinations/pipeline/1.jpg",
-				"/images/destinations/pipeline/2.jpg",
-				"/images/destinations/pipeline/3.jpg"
-			],
-			"featured": true
-		},
-		{
-			"id": "mavericks",
-			"name": "Mavericks",
-			"countryId": "usa",
-			"city": "Хаф-Мун-Бей",
-			"region": "Каліфорнія",
-			"categoryId": "big-wave",
-			"shortDescription": "Холодні гіганти за годину від Сан-Франциско.",
-			"description": "Рифова хвиля за кілька сотень метрів від берега в холодній воді, яка в сезон може сягати висоти будинку. Для катання потрібен досвід big wave та спеціальне спорядження, тому більшість приїжджає подивитися.",
-			"coordinates": {
-				"lat": 37.49,
-				"lng": -122.5
-			},
-			"difficulty": 5,
-			"waveType": "reef-break",
-			"waterTempC": 12,
-			"crowdLevel": 1,
-			"priceLevel": 3,
-			"bestMonths": [11, 12, 1, 2, 3],
-			"features": [
-				"Холодна вода: потрібен товстий гідрокостюм",
-				"Сезон із листопада до березня",
-				"Лише для професіоналів",
-				"Сан-Франциско неподалік"
-			],
-			"image": "/images/destinations/mavericks/cover.jpg",
-			"gallery": [
-				"/images/destinations/mavericks/1.jpg",
-				"/images/destinations/mavericks/2.jpg",
-				"/images/destinations/mavericks/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "gold-coast",
-			"name": "Gold Coast — Snapper Rocks",
-			"countryId": "australia",
-			"city": "Голд-Кост",
-			"region": "Квінсленд",
-			"categoryId": "iconic-spot",
-			"shortDescription": "Ланцюг піщаних поінтів від Snapper Rocks до Burleigh Heads.",
-			"description": "Намивний пісок біля Snapper Rocks створив Superbank, одну з найдовших піщаних хвиль у світі, що тягнеться в бік Кірри. Тут зазвичай людно, а найкращий час — з лютого по травень.",
-			"coordinates": {
-				"lat": -28.17,
-				"lng": 153.55
-			},
-			"difficulty": 4,
-			"waveType": "point-break",
-			"waterTempC": 23,
-			"crowdLevel": 3,
-			"priceLevel": 3,
-			"bestMonths": [2, 3, 4, 5, 6],
-			"features": [
-				"Superbank — довгі трубчасті хвилі",
-				"Багато різних пляжів поруч",
-				"Високий рівень місцевих серферів",
-				"Розвинена туристична інфраструктура"
-			],
-			"image": "/images/destinations/gold-coast/cover.jpg",
-			"gallery": [
-				"/images/destinations/gold-coast/1.jpg",
-				"/images/destinations/gold-coast/2.jpg",
-				"/images/destinations/gold-coast/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "byron-bay",
-			"name": "Byron Bay",
-			"countryId": "australia",
-			"city": "Байрон-Бей",
-			"region": "Новий Південний Уельс",
-			"categoryId": "surf-school",
-			"shortDescription": "М’які хвилі для навчання й атмосфера альтернативного містечка.",
-			"description": "Пляжі The Pass і Wategos мають довгі хвилі для лонгборду при помірних розмірах. Місто славиться фермерськими ринками, екологічною кухнею та маяком на мисі Байрон.",
-			"coordinates": {
-				"lat": -28.64,
-				"lng": 153.61
-			},
-			"difficulty": 2,
-			"waveType": "point-break",
-			"waterTempC": 22,
-			"crowdLevel": 3,
-			"priceLevel": 3,
-			"bestMonths": [2, 3, 4, 5, 6],
-			"features": [
-				"The Pass — довга хвиля для лонгборду",
-				"Маяк на мисі Байрон",
-				"Ринки й екологічна кухня",
-				"Часті зустрічі з дельфінами"
-			],
-			"image": "/images/destinations/byron-bay/cover.jpg",
-			"gallery": [
-				"/images/destinations/byron-bay/1.jpg",
-				"/images/destinations/byron-bay/2.jpg",
-				"/images/destinations/byron-bay/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "jeffreys-bay",
-			"name": "Jeffreys Bay",
-			"countryId": "south-africa",
-			"city": "Джеффрейс-Бей",
-			"region": "Східний Кейп",
-			"categoryId": "iconic-spot",
-			"shortDescription": "Одна з найкращих правих хвиль світу з довгими швидкими стінками.",
-			"description": "Піщаний поінт Supertubes тягнеться на сотні метрів у сезон із червня до вересня й приймав етапи світового туру. Вода холодна, тож потрібен гідрокостюм, а щодо акул варто слухати місцевих.",
-			"coordinates": {
-				"lat": -34.05,
-				"lng": 24.92
-			},
-			"difficulty": 4,
-			"waveType": "point-break",
-			"waterTempC": 17,
-			"crowdLevel": 3,
-			"priceLevel": 1,
-			"bestMonths": [6, 7, 8, 9],
-			"features": [
-				"Supertubes — легендарна права хвиля",
-				"Сезон із червня до вересня",
-				"Гідрокостюм обов’язковий",
-				"Boneyards і Magna Tubes поруч"
-			],
-			"image": "/images/destinations/jeffreys-bay/cover.jpg",
-			"gallery": [
-				"/images/destinations/jeffreys-bay/1.jpg",
-				"/images/destinations/jeffreys-bay/2.jpg",
-				"/images/destinations/jeffreys-bay/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "muizenberg",
-			"name": "Muizenberg",
-			"countryId": "south-africa",
-			"city": "Кейптаун",
-			"region": "Західний Кейп",
-			"categoryId": "surf-school",
-			"shortDescription": "Найкраще місце Кейптауна для першого уроку серфінгу.",
-			"description": "Довгий піщаний пляж із пологими хвилями й барвистими пляжними будиночками. Тут багато шкіл і прокатів, а поруч кав’ярні. Вода холодна, а на пляжі діє програма Shark Spotters із прапорами.",
-			"coordinates": {
-				"lat": -34.1,
-				"lng": 18.47
-			},
-			"difficulty": 1,
-			"waveType": "beach-break",
-			"waterTempC": 17,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [11, 12, 1, 2, 3, 4],
-			"features": [
-				"Пологі хвилі й піщане дно",
-				"Кольорові пляжні будиночки",
-				"Програма Shark Spotters",
-				"Близько до центру Кейптауна"
-			],
-			"image": "/images/destinations/muizenberg/cover.jpg",
-			"gallery": [
-				"/images/destinations/muizenberg/1.jpg",
-				"/images/destinations/muizenberg/2.jpg",
-				"/images/destinations/muizenberg/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "sayulita",
-			"name": "Sayulita",
-			"countryId": "mexico",
-			"city": "Саюліта",
-			"region": "Наярит",
-			"categoryId": "surf-yoga",
-			"shortDescription": "Яскраве містечко з м’якими хвилями поруч із Пуерто-Вальярта.",
-			"description": "Невелика бухта з дружніми хвилями для новачків і лонгбордистів, а поруч є кілька хвиль для просунутих. Містечко славиться вуличним мистецтвом, фестивалями й йога-студіями.",
-			"coordinates": {
-				"lat": 20.87,
-				"lng": -105.44
-			},
-			"difficulty": 2,
-			"waveType": "beach-break",
-			"waterTempC": 27,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [5, 6, 7, 8, 9, 10, 11],
-			"features": [
-				"Хвилі для початківців у бухті",
-				"Йога-студії та веллнес",
-				"Яскрава мексиканська атмосфера",
-				"Пуерто-Вальярта за годину"
-			],
-			"image": "/images/destinations/sayulita/cover.jpg",
-			"gallery": [
-				"/images/destinations/sayulita/1.jpg",
-				"/images/destinations/sayulita/2.jpg",
-				"/images/destinations/sayulita/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "puerto-escondido",
-			"name": "Puerto Escondido",
-			"countryId": "mexico",
-			"city": "Пуерто-Ескондідо",
-			"region": "Оахака",
-			"categoryId": "big-wave",
-			"shortDescription": "«Мексиканський Pipeline»: потужні піщані труби пляжу Сикатела.",
-			"description": "Пляж Zicatela постійно ловить сильні тихоокеанські свелли й формує глибокі піщані труби, які працюють із квітня по вересень. Для менш досвідчених є м’якші бухти Carrizalillo та Puerto Angelito.",
-			"coordinates": {
-				"lat": 15.86,
-				"lng": -97.07
-			},
-			"difficulty": 5,
-			"waveType": "beach-break",
-			"waterTempC": 28,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [4, 5, 6, 7, 8, 9],
-			"features": [
-				"Zicatela — потужні піщані труби",
-				"Carrizalillo — м’якші хвилі для навчання",
-				"Сезон із квітня до вересня",
-				"Високий рівень місцевих серферів"
-			],
-			"image": "/images/destinations/puerto-escondido/cover.jpg",
-			"gallery": [
-				"/images/destinations/puerto-escondido/1.jpg",
-				"/images/destinations/puerto-escondido/2.jpg",
-				"/images/destinations/puerto-escondido/3.jpg"
-			],
-			"featured": false
-		},
-		{
-			"id": "siargao",
-			"name": "Siargao — Cloud 9",
-			"countryId": "philippines",
-			"city": "Дженерал-Луна",
-			"region": "Сурігао-дель-Норте",
-			"categoryId": "iconic-spot",
-			"shortDescription": "Острів серфінгу з рифовою правою Cloud 9.",
-			"description": "Острів із пальмами, лагунами та відомою правою Cloud 9, яка приймала міжнародні змагання. Сезон хвиль триває з серпня до листопада, а поза сезоном тут тихо й недорого.",
-			"coordinates": {
-				"lat": 9.81,
-				"lng": 126.16
-			},
-			"difficulty": 4,
-			"waveType": "reef-break",
-			"waterTempC": 29,
-			"crowdLevel": 2,
-			"priceLevel": 1,
-			"bestMonths": [8, 9, 10, 11],
-			"features": [
-				"Cloud 9 — відома рифова права",
-				"Лагуни та острови поруч",
-				"Пік сезону — вересень–листопад",
-				"Недорогий відпочинок поза сезоном"
-			],
-			"image": "/images/destinations/siargao/cover.jpg",
-			"gallery": [
-				"/images/destinations/siargao/1.jpg",
-				"/images/destinations/siargao/2.jpg",
-				"/images/destinations/siargao/3.jpg"
-			],
-			"featured": true
-		},
-		{
-			"id": "baler",
-			"name": "Baler",
-			"countryId": "philippines",
-			"city": "Балер",
-			"region": "Аврора",
-			"categoryId": "surf-school",
-			"shortDescription": "Колиска філіппінського серфінгу з пляжем Sabang.",
-			"description": "Серфінг тут з’явився у 1970-х після зйомок фільму «Апокаліпсис сьогодні». Пляж Sabang має м’які піщані хвилі та школи, а біля міста є водоспади й рибальські селища.",
-			"coordinates": {
-				"lat": 15.76,
-				"lng": 121.57
-			},
-			"difficulty": 2,
-			"waveType": "beach-break",
-			"waterTempC": 28,
-			"crowdLevel": 1,
-			"priceLevel": 1,
-			"bestMonths": [9, 10, 11, 12, 1, 2, 3],
-			"features": [
-				"Піщані хвилі для початківців",
-				"Сезон із вересня до березня",
-				"Водоспади Дітумабо поруч",
-				"Спокійний невеликий курорт"
-			],
-			"image": "/images/destinations/baler/cover.jpg",
-			"gallery": [
-				"/images/destinations/baler/1.jpg",
-				"/images/destinations/baler/2.jpg",
-				"/images/destinations/baler/3.jpg"
-			],
-			"featured": false
-		}
-	]
+  "countries": [
+    {
+      "id": "portugal",
+      "name": "Portogallo",
+      "nameEn": "Portugal",
+      "code": "PT",
+      "continent": "Europa"
+    },
+    {
+      "id": "morocco",
+      "name": "Marocco",
+      "nameEn": "Morocco",
+      "code": "MA",
+      "continent": "Africa"
+    },
+    {
+      "id": "france",
+      "name": "Francia",
+      "nameEn": "France",
+      "code": "FR",
+      "continent": "Europa"
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "nameEn": "Indonesia",
+      "code": "ID",
+      "continent": "Asia"
+    },
+    {
+      "id": "sri-lanka",
+      "name": "Sri Lanka",
+      "nameEn": "Sri Lanka",
+      "code": "LK",
+      "continent": "Asia"
+    },
+    {
+      "id": "philippines",
+      "name": "Filippine",
+      "nameEn": "Philippines",
+      "code": "PH",
+      "continent": "Asia"
+    },
+    {
+      "id": "costa-rica",
+      "name": "Costa Rica",
+      "nameEn": "Costa Rica",
+      "code": "CR",
+      "continent": "America"
+    },
+    {
+      "id": "mexico",
+      "name": "Messico",
+      "nameEn": "Mexico",
+      "code": "MX",
+      "continent": "America"
+    },
+    {
+      "id": "usa",
+      "name": "Stati Uniti",
+      "nameEn": "United States",
+      "code": "US",
+      "continent": "America"
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "nameEn": "Australia",
+      "code": "AU",
+      "continent": "Oceania"
+    },
+    {
+      "id": "south-africa",
+      "name": "Sudafrica",
+      "nameEn": "South Africa",
+      "code": "ZA",
+      "continent": "Africa"
+    }
+  ],
+  "categories": [
+    {
+      "id": "surf-camp",
+      "name": "Surf Camp",
+      "description": "Vivi in un camp con alloggio, tavole, istruttori e una community di surfisti.",
+      "icon": "tent"
+    },
+    {
+      "id": "adventure",
+      "name": "Adventure",
+      "description": "Onde potenti e spot leggendari per chi cerca avventura e adrenalina.",
+      "icon": "star"
+    },
+    {
+      "id": "junior",
+      "name": "Junior",
+      "description": "Onde morbide e scuole sicure, ideali per ragazzi e principianti.",
+      "icon": "graduation-cap"
+    },
+    {
+      "id": "resort",
+      "name": "Resort",
+      "description": "Vacanze comode in resort con servizi, relax e surf a due passi.",
+      "icon": "umbrella"
+    },
+    {
+      "id": "surf-lodge",
+      "name": "Surf Lodge",
+      "description": "Alloggi raccolti e accoglienti, vicino alle onde e lontano dalla folla.",
+      "icon": "home"
+    },
+    {
+      "id": "surf-yoga",
+      "name": "Surf & Yoga",
+      "description": "Surf abbinato a yoga, natura e un ritmo di vita rilassato.",
+      "icon": "lotus"
+    },
+    {
+      "id": "boat-trip",
+      "name": "Boat Trip",
+      "description": "Viaggi in barca alla ricerca delle onde migliori.",
+      "icon": "waves"
+    },
+    {
+      "id": "surf-resort",
+      "name": "Surf Resort",
+      "description": "Resort pensati per i surfisti, con accesso diretto alle onde.",
+      "icon": "building"
+    },
+    {
+      "id": "group-trip",
+      "name": "Viaggio di Gruppo",
+      "description": "Viaggi organizzati da fare in compagnia di altri surfisti.",
+      "icon": "users"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "peniche",
+      "name": "Peniche — Supertubos & Baleal",
+      "title": "Peniche Surf Camp in Hotel",
+      "countryId": "portugal",
+      "city": "Peniche",
+      "region": "Regione Centro",
+      "categoryId": "surf-camp",
+      "shortDescription": "La capitale del surf portoghese con l'onda di Supertubos e decine di camp.",
+      "description": "La penisola di Peniche si affaccia sull'oceano da due lati, quindi c'è quasi sempre una spiaggia con onde pulite. Qui trovi sia le potenti onde di Supertubos sia spiagge morbide per i principianti. Lisbona dista circa un'ora e mezza.",
+      "coordinates": {
+        "lat": 39.36,
+        "lng": -9.38
+      },
+      "difficulty": 3,
+      "waveType": "beach-break",
+      "waterTempC": 16,
+      "crowdLevel": 3,
+      "priceLevel": 2,
+      "bestMonths": [3, 4, 9, 10, 11],
+      "features": [
+        "La famosa onda di Supertubos",
+        "Onde per ogni livello a pochi minuti l'una dall'altra",
+        "Tanti camp e scuole per ogni budget",
+        "Vicino a Lisbona"
+      ],
+      "image": "https://i.ibb.co/9m1gT4LV/Rectangle-11.png",
+      "gallery": [
+        "/images/destinations/peniche/1.jpg",
+        "/images/destinations/peniche/2.jpg",
+        "/images/destinations/peniche/3.jpg"
+      ],
+      "featured": true,
+      "levels": ["beginner", "intermediate", "advanced"],
+      "accommodations": ["hotel", "hostel"],
+      "activities": ["yoga"]
+    },
+    {
+      "id": "nazare",
+      "name": "Nazaré",
+      "title": "Nazaré Big Wave Adventure",
+      "countryId": "portugal",
+      "city": "Nazaré",
+      "region": "Regione Centro",
+      "categoryId": "adventure",
+      "shortDescription": "Il luogo dove l'oceano crea alcune delle onde più grandi del mondo.",
+      "description": "Il canyon sottomarino vicino a Praia do Norte amplifica le mareggiate invernali, con onde alte come un palazzo. In acqua ci vanno solo i big wave surfer professionisti, mentre tutti gli altri possono guardare dal faro.",
+      "coordinates": {
+        "lat": 39.6,
+        "lng": -9.07
+      },
+      "difficulty": 5,
+      "waveType": "beach-break",
+      "waterTempC": 16,
+      "crowdLevel": 1,
+      "priceLevel": 2,
+      "bestMonths": [10, 11, 12, 1, 2],
+      "features": [
+        "Il canyon sottomarino amplifica le onde",
+        "Stagione delle onde giganti da ottobre a febbraio",
+        "Punto panoramico vicino al faro",
+        "In acqua solo per professionisti"
+      ],
+      "image": "https://i.ibb.co/rYJLM55/Rectangle-11-1.png",
+      "gallery": [
+        "/images/destinations/nazare/1.jpg",
+        "/images/destinations/nazare/2.jpg",
+        "/images/destinations/nazare/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["advanced"],
+      "accommodations": ["hotel", "apartment"],
+      "activities": []
+    },
+    {
+      "id": "ericeira",
+      "name": "Ericeira",
+      "title": "Ericeira Surf Lodge Experience",
+      "countryId": "portugal",
+      "city": "Ericeira",
+      "region": "Regione di Lisbona",
+      "categoryId": "surf-lodge",
+      "shortDescription": "Un villaggio di pescatori bianco e Riserva Mondiale del Surf con onde su reef.",
+      "description": "A circa 50 km da Lisbona, Ericeira offre diverse onde raggiungibili a piedi, da quelle morbide a quelle impegnative su reef. I principianti imparano qui, mentre i surfisti esperti puntano alla famosa destra di Coxos.",
+      "coordinates": {
+        "lat": 38.96,
+        "lng": -9.42
+      },
+      "difficulty": 3,
+      "waveType": "reef-break",
+      "waterTempC": 16,
+      "crowdLevel": 2,
+      "priceLevel": 2,
+      "bestMonths": [3, 4, 9, 10, 11],
+      "features": [
+        "Riserva Mondiale del Surf",
+        "Diverse onde vicino al paese per ogni livello",
+        "Paese accogliente con ristoranti di pesce",
+        "Lisbona a 50 minuti"
+      ],
+      "image": "https://i.ibb.co/N2g0kRz1/Rectangle-11-2.png",
+      "gallery": [
+        "/images/destinations/ericeira/1.jpg",
+        "/images/destinations/ericeira/2.jpg",
+        "/images/destinations/ericeira/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["beginner", "intermediate"],
+      "accommodations": ["hostel", "apartment"],
+      "activities": ["yoga"]
+    },
+    {
+      "id": "taghazout",
+      "name": "Taghazout",
+      "title": "Taghazout Surf Camp & Yoga",
+      "countryId": "morocco",
+      "city": "Taghazout",
+      "region": "Souss-Massa",
+      "categoryId": "surf-camp",
+      "shortDescription": "Villaggio di pescatori con lunghe onde destre e camp con yoga.",
+      "description": "Lungo la costa a nord di Agadir si trovano diversi point break, tra cui Anchor Point, attivi con le mareggiate invernali. Tanti camp economici, atmosfera amichevole e inverni più caldi che in Europa.",
+      "coordinates": {
+        "lat": 30.54,
+        "lng": -9.71
+      },
+      "difficulty": 3,
+      "waveType": "point-break",
+      "waterTempC": 19,
+      "crowdLevel": 3,
+      "priceLevel": 1,
+      "bestMonths": [10, 11, 12, 1, 2, 3],
+      "features": [
+        "Anchor Point, una lunga onda destra",
+        "Stagione da ottobre a marzo",
+        "Camp economici con yoga",
+        "Voli diretti per Agadir dall'Europa"
+      ],
+      "image": "https://i.ibb.co/cHRLW0B/Rectangle-11-3.png",
+      "gallery": [
+        "/images/destinations/taghazout/1.jpg",
+        "/images/destinations/taghazout/2.jpg",
+        "/images/destinations/taghazout/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["beginner", "intermediate"],
+      "accommodations": ["hostel", "hotel"],
+      "activities": ["yoga"]
+    },
+    {
+      "id": "imsouane",
+      "name": "Imsouane",
+      "title": "Imsouane Surf Lodge",
+      "countryId": "morocco",
+      "city": "Imsouane",
+      "region": "Souss-Massa",
+      "categoryId": "surf-lodge",
+      "shortDescription": "Una delle onde più lunghe d'Africa, perfetta per il longboard.",
+      "description": "Un piccolo paese tra Agadir ed Essaouira con due onde nella baia: The Bay e Cathedrals. Le lunghe destre morbide permettono corse di centinaia di metri e sono adatte a chi già si alza in piedi sulla tavola.",
+      "coordinates": {
+        "lat": 30.84,
+        "lng": -9.82
+      },
+      "difficulty": 2,
+      "waveType": "point-break",
+      "waterTempC": 19,
+      "crowdLevel": 2,
+      "priceLevel": 1,
+      "bestMonths": [10, 11, 12, 1, 2, 3, 4],
+      "features": [
+        "Onde lunghe e morbide per il longboard",
+        "Paese tranquillo senza vita notturna",
+        "Ottimo per progredire dopo le prime lezioni",
+        "Cucina berbera e tajine"
+      ],
+      "image": "https://i.ibb.co/6zTDf6K/Rectangle-11-4.png",
+      "gallery": [
+        "/images/destinations/imsouane/1.jpg",
+        "/images/destinations/imsouane/2.jpg",
+        "/images/destinations/imsouane/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["beginner", "intermediate"],
+      "accommodations": ["hostel", "apartment"],
+      "activities": ["yoga"]
+    },
+    {
+      "id": "hossegor",
+      "name": "Hossegor",
+      "title": "Hossegor Adventure Surf Trip",
+      "countryId": "france",
+      "city": "Hossegor",
+      "region": "Nuova Aquitania",
+      "categoryId": "adventure",
+      "shortDescription": "Potenti tubi di sabbia dell'Atlantico e la cultura surf europea.",
+      "description": "Le sandbar di La Gravière e di altri spot creano onde veloci e cave che hanno ospitato più volte tappe del circuito mondiale. Intorno ci sono pinete, piste ciclabili e negozi dei marchi di surf.",
+      "coordinates": {
+        "lat": 43.66,
+        "lng": -1.44
+      },
+      "difficulty": 4,
+      "waveType": "beach-break",
+      "waterTempC": 17,
+      "crowdLevel": 3,
+      "priceLevel": 3,
+      "bestMonths": [9, 10, 11],
+      "features": [
+        "I tubi di sabbia di La Gravière",
+        "Alta stagione in autunno",
+        "Marchi e negozi di surf",
+        "Piste ciclabili nella pineta"
+      ],
+      "image": "https://i.ibb.co/DfgJyhz6/Rectangle-11-5.png",
+      "gallery": [
+        "/images/destinations/hossegor/1.jpg",
+        "/images/destinations/hossegor/2.jpg",
+        "/images/destinations/hossegor/3.jpg"
+      ],
+      "featured": true,
+      "levels": ["intermediate", "advanced"],
+      "accommodations": ["apartment", "hotel"],
+      "activities": []
+    },
+    {
+      "id": "biarritz",
+      "name": "Biarritz",
+      "title": "Biarritz Junior Surf Camp",
+      "countryId": "france",
+      "city": "Biarritz",
+      "region": "Nuova Aquitania",
+      "categoryId": "junior",
+      "shortDescription": "La culla del surf europeo, con onde morbide in una elegante città di mare.",
+      "description": "Le spiagge di Côte des Basques e Grande Plage offrono onde lente ideali per longboard e lezioni. Oltre al surf, ci sono architettura da località balneare, cucina basca e la vicinanza alla Spagna.",
+      "coordinates": {
+        "lat": 43.48,
+        "lng": -1.56
+      },
+      "difficulty": 2,
+      "waveType": "beach-break",
+      "waterTempC": 17,
+      "crowdLevel": 3,
+      "priceLevel": 3,
+      "bestMonths": [6, 7, 8, 9, 10],
+      "features": [
+        "Considerata la culla del surf in Europa",
+        "Onde da longboard e molte scuole",
+        "Cucina basca e pintxos",
+        "San Sebastián vicina"
+      ],
+      "image": "https://i.ibb.co/r2sgqny7/Rectangle-11-6.png",
+      "gallery": [
+        "/images/destinations/biarritz/1.jpg",
+        "/images/destinations/biarritz/2.jpg",
+        "/images/destinations/biarritz/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["beginner", "intermediate"],
+      "accommodations": ["hotel", "hostel"],
+      "activities": []
+    },
+    {
+      "id": "uluwatu",
+      "name": "Uluwatu",
+      "title": "Uluwatu Surf Resort",
+      "countryId": "indonesia",
+      "city": "Uluwatu",
+      "region": "Bali",
+      "categoryId": "surf-resort",
+      "shortDescription": "Leggendarie onde su reef sotto le scogliere nel sud di Bali.",
+      "description": "Sotto alte scogliere ci sono diverse onde su reef attive nella stagione secca: Racetrack, Temples e Outside Corner. Si entra in acqua attraverso una grotta, e l'onda veloce e potente è adatta solo a chi ha esperienza.",
+      "coordinates": {
+        "lat": -8.83,
+        "lng": 115.08
+      },
+      "difficulty": 4,
+      "waveType": "reef-break",
+      "waterTempC": 28,
+      "crowdLevel": 3,
+      "priceLevel": 2,
+      "bestMonths": [5, 6, 7, 8, 9],
+      "features": [
+        "Ingresso in acqua attraverso una grotta",
+        "Stagione secca da maggio a settembre",
+        "Tramonto al bar Single Fin",
+        "Solo per surfisti esperti"
+      ],
+      "image": "https://i.ibb.co/S4mn349C/Rectangle-11-7.png",
+      "gallery": [
+        "/images/destinations/uluwatu/1.jpg",
+        "/images/destinations/uluwatu/2.jpg",
+        "/images/destinations/uluwatu/3.jpg"
+      ],
+      "featured": true,
+      "levels": ["intermediate", "advanced"],
+      "accommodations": ["hotel", "apartment"],
+      "activities": ["yoga", "diving"]
+    },
+    {
+      "id": "canggu",
+      "name": "Canggu",
+      "title": "Canggu Surf & Yoga Retreat",
+      "countryId": "indonesia",
+      "city": "Canggu",
+      "region": "Bali",
+      "categoryId": "surf-yoga",
+      "shortDescription": "Surf, yoga e caffè: la base ideale per il primo viaggio a Bali.",
+      "description": "Le spiagge di Batu Bolong, Echo Beach e Old Man's offrono onde per ogni livello. In paese ci sono tante scuole di yoga, spazi di coworking e caffè, perfetti per chi unisce surf e lavoro da remoto.",
+      "coordinates": {
+        "lat": -8.65,
+        "lng": 115.13
+      },
+      "difficulty": 2,
+      "waveType": "beach-break",
+      "waterTempC": 28,
+      "crowdLevel": 3,
+      "priceLevel": 2,
+      "bestMonths": [4, 5, 6, 7, 8, 9, 10],
+      "features": [
+        "Batu Bolong per longboard e principianti",
+        "Yoga e wellness",
+        "Coworking e caffè",
+        "Tante soluzioni di alloggio"
+      ],
+      "image": "https://i.ibb.co/8nF4KqLQ/Rectangle-11-8.png",
+      "gallery": [
+        "/images/destinations/canggu/1.jpg",
+        "/images/destinations/canggu/2.jpg",
+        "/images/destinations/canggu/3.jpg"
+      ],
+      "featured": true,
+      "levels": ["beginner", "intermediate"],
+      "accommodations": ["hotel", "apartment", "hostel"],
+      "activities": ["yoga"]
+    },
+    {
+      "id": "weligama",
+      "name": "Weligama",
+      "title": "Weligama Junior Surf Camp",
+      "countryId": "sri-lanka",
+      "city": "Weligama",
+      "region": "Provincia Meridionale",
+      "categoryId": "junior",
+      "shortDescription": "Una baia sabbiosa e dolce: il posto migliore dell'isola per le prime onde.",
+      "description": "Una lunga baia con onde dolci, fondale sabbioso e acqua calda. In stagione ci sono decine di scuole e noleggi, e poco lontano si trovano la città vecchia di Galle e splendide spiagge.",
+      "coordinates": {
+        "lat": 5.97,
+        "lng": 80.43
+      },
+      "difficulty": 1,
+      "waveType": "beach-break",
+      "waterTempC": 28,
+      "crowdLevel": 2,
+      "priceLevel": 1,
+      "bestMonths": [11, 12, 1, 2, 3, 4],
+      "features": [
+        "Acqua calda, circa 28 °C",
+        "Fondale sabbioso e onde dolci",
+        "Decine di scuole e noleggi",
+        "Città vecchia di Galle vicina"
+      ],
+      "image": "https://i.ibb.co/cHRLW0B/Rectangle-11-3.png",
+      "gallery": [
+        "/images/destinations/weligama/1.jpg",
+        "/images/destinations/weligama/2.jpg",
+        "/images/destinations/weligama/3.jpg"
+      ],
+      "featured": true,
+      "levels": ["beginner"],
+      "accommodations": ["hostel", "hotel"],
+      "activities": ["yoga", "snorkeling"]
+    },
+    {
+      "id": "santa-teresa",
+      "name": "Santa Teresa",
+      "title": "Santa Teresa Surf & Yoga Camp",
+      "countryId": "costa-rica",
+      "city": "Santa Teresa",
+      "region": "Nicoya, Puntarenas",
+      "categoryId": "surf-yoga",
+      "shortDescription": "Onde di sabbia, giungla e yoga su spiagge quasi deserte.",
+      "description": "Una lunga spiaggia con tanti picchi, palme e giungla. Onde costanti, serate tranquille, studi di yoga e camp attirano chi cerca un equilibrio tra surf e relax.",
+      "coordinates": {
+        "lat": 9.65,
+        "lng": -85.17
+      },
+      "difficulty": 3,
+      "waveType": "beach-break",
+      "waterTempC": 28,
+      "crowdLevel": 2,
+      "priceLevel": 2,
+      "bestMonths": [12, 1, 2, 3, 4, 5],
+      "features": [
+        "Onde di sabbia costanti",
+        "Yoga e ritiri wellness",
+        "Giungla a due passi dalla spiaggia",
+        "Tramonti sul Pacifico"
+      ],
+      "image": "https://i.ibb.co/C5fV2Bm2/Rectangle-11-10.png",
+      "gallery": [
+        "/images/destinations/santa-teresa/1.jpg",
+        "/images/destinations/santa-teresa/2.jpg",
+        "/images/destinations/santa-teresa/3.jpg"
+      ],
+      "featured": true,
+      "levels": ["intermediate"],
+      "accommodations": ["hostel", "apartment"],
+      "activities": ["yoga", "snorkeling"]
+    },
+    {
+      "id": "tamarindo",
+      "name": "Tamarindo",
+      "title": "Tamarindo Beach Resort",
+      "countryId": "costa-rica",
+      "city": "Tamarindo",
+      "region": "Guanacaste",
+      "categoryId": "resort",
+      "shortDescription": "Un ingresso facile nel surf: ampia baia e tante scuole.",
+      "description": "Una località balneare a Guanacaste con stagione lunga, onde di sabbia per principianti e le famose Playa Grande e Playa Negra vicine. Tante scuole, ristoranti e un comodo collegamento con l'aeroporto di Liberia.",
+      "coordinates": {
+        "lat": 10.3,
+        "lng": -85.84
+      },
+      "difficulty": 2,
+      "waveType": "beach-break",
+      "waterTempC": 28,
+      "crowdLevel": 2,
+      "priceLevel": 2,
+      "bestMonths": [12, 1, 2, 3, 4, 5, 6],
+      "features": [
+        "Tante scuole e noleggi di tavole",
+        "Playa Grande e Playa Negra vicine",
+        "Facile da raggiungere da Liberia",
+        "Vita notturna vivace"
+      ],
+      "image": "https://i.ibb.co/pjbcTJLn/Rectangle-11-11.png",
+      "gallery": [
+        "/images/destinations/tamarindo/1.jpg",
+        "/images/destinations/tamarindo/2.jpg",
+        "/images/destinations/tamarindo/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["beginner", "intermediate"],
+      "accommodations": ["hotel", "apartment"],
+      "activities": ["snorkeling", "diving"]
+    },
+    {
+      "id": "waikiki",
+      "name": "Waikiki",
+      "title": "Waikiki Beach Resort",
+      "countryId": "usa",
+      "city": "Waikiki",
+      "region": "Oahu, Hawaii",
+      "categoryId": "resort",
+      "shortDescription": "Il luogo storico del surf: lunghe onde morbide nel centro di Honolulu.",
+      "description": "Le onde su reef di Canoes, Queens e Populars regalano corse lunghe e dolci, soprattutto in estate con le mareggiate da sud. Le tavole si noleggiano direttamente in spiaggia e vicino c'è la statua di Duke Kahanamoku.",
+      "coordinates": {
+        "lat": 21.27,
+        "lng": -157.83
+      },
+      "difficulty": 1,
+      "waveType": "reef-break",
+      "waterTempC": 26,
+      "crowdLevel": 3,
+      "priceLevel": 3,
+      "bestMonths": [5, 6, 7, 8, 9],
+      "features": [
+        "Culla storica del surf moderno",
+        "Mareggiata estiva da sud",
+        "Noleggio tavole in spiaggia",
+        "Honolulu a due passi"
+      ],
+      "image": "https://i.ibb.co/xqVJZRc6/Rectangle-11-12.png",
+      "gallery": [
+        "/images/destinations/waikiki/1.jpg",
+        "/images/destinations/waikiki/2.jpg",
+        "/images/destinations/waikiki/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["beginner"],
+      "accommodations": ["hotel", "apartment"],
+      "activities": ["snorkeling", "diving"]
+    },
+    {
+      "id": "pipeline",
+      "name": "Pipeline",
+      "title": "Pipeline Adventure Trip",
+      "countryId": "usa",
+      "city": "Pupukea",
+      "region": "North Shore di Oahu, Hawaii",
+      "categoryId": "adventure",
+      "shortDescription": "Uno dei tubi più famosi e pericolosi del mondo.",
+      "description": "Un reef poco profondo crea una barrel cava sopra il fondale, e in inverno sul North Shore si radunano i migliori surfisti del mondo. Per la maggior parte dei viaggiatori è un posto da cui guardare dalla spiaggia di Ehukai, non dove fare surf.",
+      "coordinates": {
+        "lat": 21.66,
+        "lng": -158.05
+      },
+      "difficulty": 5,
+      "waveType": "reef-break",
+      "waterTempC": 25,
+      "crowdLevel": 3,
+      "priceLevel": 3,
+      "bestMonths": [11, 12, 1, 2],
+      "features": [
+        "Stagione invernale da novembre a febbraio",
+        "Spiaggia di Ehukai, punto per gli spettatori",
+        "Reef basso e pericoloso",
+        "Competizione annuale Pipe Masters"
+      ],
+      "image": "https://i.ibb.co/dwqYrbGV/Rectangle-11-13.png",
+      "gallery": [
+        "/images/destinations/pipeline/1.jpg",
+        "/images/destinations/pipeline/2.jpg",
+        "/images/destinations/pipeline/3.jpg"
+      ],
+      "featured": true,
+      "levels": ["advanced"],
+      "accommodations": ["apartment"],
+      "activities": ["snorkeling"]
+    },
+    {
+      "id": "mavericks",
+      "name": "Mavericks",
+      "title": "Mavericks Boat Trip",
+      "countryId": "usa",
+      "city": "Half Moon Bay",
+      "region": "California",
+      "categoryId": "boat-trip",
+      "shortDescription": "Giganti d'acqua fredda a un'ora da San Francisco.",
+      "description": "Un'onda su reef a poche centinaia di metri dalla riva, in acqua fredda, che in stagione può raggiungere l'altezza di una casa. Servono esperienza big wave e attrezzatura speciale, quindi la maggior parte dei visitatori viene a guardare.",
+      "coordinates": {
+        "lat": 37.49,
+        "lng": -122.5
+      },
+      "difficulty": 5,
+      "waveType": "reef-break",
+      "waterTempC": 12,
+      "crowdLevel": 1,
+      "priceLevel": 3,
+      "bestMonths": [11, 12, 1, 2, 3],
+      "features": [
+        "Acqua fredda: muta spessa necessaria",
+        "Stagione da novembre a marzo",
+        "Solo per professionisti",
+        "San Francisco nelle vicinanze"
+      ],
+      "image": "https://i.ibb.co/nNDCZdkF/Rectangle-11-14.png",
+      "gallery": [
+        "/images/destinations/mavericks/1.jpg",
+        "/images/destinations/mavericks/2.jpg",
+        "/images/destinations/mavericks/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["advanced"],
+      "accommodations": ["hotel"],
+      "activities": []
+    },
+    {
+      "id": "gold-coast",
+      "name": "Gold Coast — Snapper Rocks",
+      "title": "Gold Coast Surf Resort",
+      "countryId": "australia",
+      "city": "Gold Coast",
+      "region": "Queensland",
+      "categoryId": "surf-resort",
+      "shortDescription": "Una catena di point break sabbiosi da Snapper Rocks a Burleigh Heads.",
+      "description": "La sabbia portata dalle correnti a Snapper Rocks ha creato la Superbank, una delle onde di sabbia più lunghe al mondo, che arriva fino a Kirra. Di solito è affollata e il periodo migliore va da febbraio a maggio.",
+      "coordinates": {
+        "lat": -28.17,
+        "lng": 153.55
+      },
+      "difficulty": 4,
+      "waveType": "point-break",
+      "waterTempC": 23,
+      "crowdLevel": 3,
+      "priceLevel": 3,
+      "bestMonths": [2, 3, 4, 5, 6],
+      "features": [
+        "Superbank, lunghe onde con tubo",
+        "Molte spiagge diverse vicine",
+        "Alto livello dei surfisti locali",
+        "Infrastrutture turistiche sviluppate"
+      ],
+      "image": "https://i.ibb.co/k2LQmLRc/Rectangle-11-15.png",
+      "gallery": [
+        "/images/destinations/gold-coast/1.jpg",
+        "/images/destinations/gold-coast/2.jpg",
+        "/images/destinations/gold-coast/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["intermediate", "advanced"],
+      "accommodations": ["hotel", "apartment"],
+      "activities": ["diving"]
+    },
+    {
+      "id": "byron-bay",
+      "name": "Byron Bay",
+      "title": "Byron Bay Viaggio di Gruppo",
+      "countryId": "australia",
+      "city": "Byron Bay",
+      "region": "Nuovo Galles del Sud",
+      "categoryId": "group-trip",
+      "shortDescription": "Onde morbide per imparare e l'atmosfera di una cittadina alternativa.",
+      "description": "Le spiagge di The Pass e Wategos hanno onde lunghe da longboard con dimensioni moderate. La città è famosa per i mercati contadini, la cucina ecologica e il faro di Cape Byron.",
+      "coordinates": {
+        "lat": -28.64,
+        "lng": 153.61
+      },
+      "difficulty": 2,
+      "waveType": "point-break",
+      "waterTempC": 22,
+      "crowdLevel": 3,
+      "priceLevel": 3,
+      "bestMonths": [2, 3, 4, 5, 6],
+      "features": [
+        "The Pass, lunga onda da longboard",
+        "Faro di Cape Byron",
+        "Mercati e cucina ecologica",
+        "Incontri frequenti con i delfini"
+      ],
+      "image": "https://i.ibb.co/Hpp3VQ1y/Rectangle-11-16.png",
+      "gallery": [
+        "/images/destinations/byron-bay/1.jpg",
+        "/images/destinations/byron-bay/2.jpg",
+        "/images/destinations/byron-bay/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["beginner", "intermediate"],
+      "accommodations": ["hostel", "hotel"],
+      "activities": ["yoga", "diving"]
+    },
+    {
+      "id": "jeffreys-bay",
+      "name": "Jeffreys Bay",
+      "title": "Jeffrey’s Bay Surf Camp in Hotel",
+      "countryId": "south-africa",
+      "city": "Jeffreys Bay",
+      "region": "Capo Orientale",
+      "categoryId": "surf-camp",
+      "shortDescription": "Una delle migliori onde destre al mondo, con pareti lunghe e veloci.",
+      "description": "Il point sabbioso di Supertubes si estende per centinaia di metri da giugno a settembre e ha ospitato tappe del circuito mondiale. L'acqua è fredda, quindi serve la muta, e per gli squali conviene ascoltare i locali.",
+      "coordinates": {
+        "lat": -34.05,
+        "lng": 24.92
+      },
+      "difficulty": 4,
+      "waveType": "point-break",
+      "waterTempC": 17,
+      "crowdLevel": 3,
+      "priceLevel": 1,
+      "bestMonths": [6, 7, 8, 9],
+      "features": [
+        "Supertubes, leggendaria onda destra",
+        "Stagione da giugno a settembre",
+        "Muta obbligatoria",
+        "Boneyards e Magna Tubes vicini"
+      ],
+      "image": "https://i.ibb.co/nsxrxZ7v/Rectangle-11-17.png",
+      "gallery": [
+        "/images/destinations/jeffreys-bay/1.jpg",
+        "/images/destinations/jeffreys-bay/2.jpg",
+        "/images/destinations/jeffreys-bay/3.jpg"
+      ],
+      "featured": false,
+      "levels": ["intermediate", "advanced"],
+      "accommodations": ["hotel", "hostel"],
+      "activities": []
+    }
+  ],
+  "levels": [
+    {
+      "id": "beginner",
+      "name": "Principiante"
+    },
+    {
+      "id": "intermediate",
+      "name": "Intermedio"
+    },
+    {
+      "id": "advanced",
+      "name": "Avanzato"
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "hotel",
+      "name": "Hotel"
+    },
+    {
+      "id": "apartment",
+      "name": "Appartamento"
+    },
+    {
+      "id": "hostel",
+      "name": "Ostello"
+    }
+  ],
+  "activities": [
+    {
+      "id": "yoga",
+      "name": "Yoga"
+    },
+    {
+      "id": "snorkeling",
+      "name": "Snorkeling"
+    },
+    {
+      "id": "diving",
+      "name": "Immersioni"
+    }
+  ]
 }
