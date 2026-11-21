@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Surf & Travel</title>
-  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="../css/main.css" />
 </head>
 
 <body>
@@ -123,18 +123,62 @@
     </section>
     <section class="activity">
       <div class="container">
-        <ul class="activity__track" id="track">
-          <li class="activity__card" href="#">
-            <p class="activity__card__desc">Surf a Grand Canaria</p>
-          </li>
-          <li class="card" href="#">
-            <p class="activity__card__desc">Scuola Surf Las Palmas</p>
-          </li>
-        </ul>
-        <button class="prev" aria-label="Before">‹</button>
-        <button class="next" aria-label="After">›</button>
+        <div class="activity__header">
+          <h2 class="activity__title"><svg class="activity__title__icon" width="20" height="20"><use href="./images/symbol-defs.svg#star"></use></svg> Attività Surf & Extra Surf</h2>
+          <p class="activity__description">
+            Scegli la tipologia di vacanza di surf che fa per te.<br>
+            Puoi partire in qualsiasi momento.
+          </p>
+        </div>
+
+        <p class="activity__subtitle">Attività Surf in questa località:</p>
+
+        <div class="activity__slider">
+          <ul class="activity__track" id="track">
+            <li class="activity__item">
+              <a class="activity__card" href="#">
+                <img class="activity__img" src="./images/thirdpage/activity-first-photo.png" alt="" loading="lazy" />
+                <p class="activity__name">Surf a Grand Canaria</p>
+              </a>
+            </li>
+
+            <li class="activity__item">
+              <a class="activity__card" href="#">
+                <img class="activity__img" src="./images/thirdpage/activity-second-photo.png" alt="" loading="lazy" />
+                <p class="activity__name">Scuola Surf Las Palmas</p>
+              </a>
+            </li>
+
+            <li class="activity__item">
+              <a class="activity__card" href="#">
+                <img class="activity__img" src="./images/thirdpage/activity-third-photo.png" alt="" loading="lazy" />
+                <p class="activity__name">Scuola Surf Las Palmas</p>
+              </a>
+            </li>
+
+            <li class="activity__item">
+              <a class="activity__card" href="#">
+                <img class="activity__img" src="./images/thirdpage/activity-third-photo.png" alt="" loading="lazy" />
+                <p class="activity__name">Scuola Surf Las Palmas</p>
+              </a>
+            </li>
+
+            <li class="activity__item">
+              <a class="activity__card" href="#">
+                <img class="activity__img" src="./images/thirdpage/activity-third-photo.png" alt="" loading="lazy" />
+                <p class="activity__name">Scuola Surf Las Palmas</p>
+              </a>
+            </li>
+
+          </ul>
+
+          <button class="activity__btn activity__btn--prev" type="button" aria-label="Precedente">‹</button>
+          <button class="activity__btn activity__btn--next" type="button" aria-label="Successivo">›</button>
+        </div>
       </div>
     </section>
+
+
     <section class="surf-packages">
       <div class="container">
         <div class="surf-packages__header">

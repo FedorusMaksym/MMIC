@@ -1,190 +1,134 @@
-    .activity {
-      padding: 40px 0;
-    }
+@use "../../utils/variables" as *;
 
-    .container {
-      position: relative;
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 56px;
-    }
+$activity-gap: 3px;
+$activity-accent: #f26d3d;
+$activity-btn-size: 48px;
 
-    .activity__track {
-      display: flex;
-      gap: 3px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      scrollbar-width: none;
-      -webkit-overflow-scrolling: touch;
-    }
+.activity {
+  padding-top: 48px;
+  padding-bottom: 112px;
 
-    .activity__track::-webkit-scrollbar {
-      display: none;
-    }
+  &__header {
+    padding-bottom: 48px;
+    text-align: center;
+  }
 
-    .activity__card {
-      flex: 0 0 calc((100% - 3px) / 2);
-      /* 2 картки на екрані */
-      height: 280px;
-      scroll-snap-align: start;
-      animation: cardIn .8s cubic-bezier(.22, 1, .36, 1) both;
-    }
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 24px;
+    font-size: 20px;
+    font-weight: 400;
 
-    .activity__card:nth-child(2) {
-      animation-delay: .12s;
-    }
-
-    .activity__card:nth-child(3) {
-      animation-delay: .24s;
-    }
-
-    @keyframes cardIn {
-      from {
-        opacity: 0;
-        transform: translateY(24px) scale(.98);
-      }
-
-      to {
-        opacity: 1;
-        transform: none;
-      }
-    }
-
-    .activity__link {
-      position: relative;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-      height: 100%;
-      padding: 0 16px 18px;
-      background-size: cover;
-      background-position: center;
-      background-color: #2a8fa0;
-      color: #fff;
-      text-decoration: none;
-      overflow: hidden;
-    }
-
-    .activity__link::before {
-      /* затемнення знизу для читабельності */
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(0, 0, 0, .45), transparent 50%);
-      transition: background .5s ease;
-    }
-
-    .activity__link:hover::before {
-      background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .05) 60%);
-    }
-
-    .activity__link::after {
-      /* легкий zoom фону при hover */
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: inherit;
-      transition: transform .9s cubic-bezier(.22, 1, .36, 1);
-      z-index: 0;
-    }
-
-    .activity__link:hover::after {
-      transform: scale(1.07);
-    }
-
-    .activity__link::before {
-      z-index: 1;
-    }
-
-    .activity__card__desc {
-      position: relative;
-      z-index: 2;
-      margin: 0;
-      font-size: 14px;
-      font-weight: 600;
-      text-decoration: underline;
-      text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
-      text-underline-offset: 3px;
-      transition: transform .5s cubic-bezier(.22, 1, .36, 1), text-underline-offset .5s;
-    }
-
-    .activity__link:hover .activity__card__desc {
-      transform: translateY(-6px);
-      text-underline-offset: 6px;
-    }
-
-
-    .prev,
-    .next {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
+    &__icon{
+      color: $subtext-color;
       width: 40px;
       height: 40px;
-      border: 0;
-      border-radius: 50%;
-      background: #fff;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
-      font-size: 26px;
-      line-height: 1;
-      cursor: pointer;
-      transition: opacity .3s, transform .25s cubic-bezier(.22, 1, .36, 1), box-shadow .25s;
+    }
+  }
+
+
+  &__icon {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    color: $activity-accent;
+  }
+
+  &__description {
+    margin: 0 auto;
+    font-size: 20px;
+    color: $text-color;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    padding-bottom: 24px;
+    color: $text-color;
+  }
+
+  &__slider {
+    position: relative;
+  }
+
+  &__track {
+    display: flex;
+    gap: $activity-gap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  &__item {
+    flex: 0 0 48%;
+    scroll-snap-align: start;
+  }
+
+  &__card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  &__name {
+    position: absolute;
+    right: 12px;
+    bottom: 18px;
+    left: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $activity-btn-size;
+    height: $activity-btn-size;
+    padding: 0 0 4px;
+    font-size: 28px;
+    color: $subtext-color;
+    background-color: #fff;
+    border: 1px solid rgba(227, 227, 225, 1);
+    border-radius: 50%;
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.1);
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+
+    &:focus-visible {
+      outline: 2px solid $subtext-color;
+      outline-offset: 2px;
     }
 
-    .prev {
-      left: 8px;
-    }
-
-    .next {
-      right: 8px;
-    }
-
-    .prev:hover,
-    .next:hover {
-      transform: translateY(-50%) scale(1.1);
-      box-shadow: 0 4px 16px rgba(0, 0, 0, .25);
-    }
-
-    .prev:active,
-    .next:active {
-      transform: translateY(-50%) scale(.94);
-    }
-
-    .prev:disabled,
-    .next:disabled {
-      opacity: .3;
+    &:disabled {
+      opacity: 0.4;
       cursor: default;
-      transform: translateY(-50%);
-      box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+      pointer-events: none;
     }
 
-    @media (prefers-reduced-motion: reduce) {
-
-      *,
-      *::before,
-      *::after {
-        animation: none !important;
-        transition: none !important;
-      }
+    &--prev {
+      left: 12px;
     }
 
-    @media (max-width: 700px) {
-      .container {
-        padding: 0 16px;
-      }
-
-      .activity__card {
-        flex-basis: 80%;
-        height: 240px;
-      }
-
-      .prev,
-      .next {
-        display: none;
-      }
-
-      /* на мобільному — свайп */
+    &--next {
+      right: 12px;
     }
+  }
+}
